@@ -93,9 +93,6 @@ Ancestor-descendant and different-lineage accuracy leave out the mutations chang
 parallel copies; the simulators record them). Seconds in `evaluate.py` results come from parallel workers; run times
 for reporting come from `timing.py`.
 
-Archived, not part of this pipeline: the dataset 1-like and realistic-ranges test sets (too close to the training data)
-and the previous paper simulations' 200-1,000-cell block (too slow for LA).
-
 ## Run
 
 Activate the environment with `source .venv/bin/activate`, then run these commands from the repository root.
