@@ -101,8 +101,8 @@ python run.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --referen
 python run.py --input data/cells23_input.tsv --fp 0.001 --fn 0.15 --reference data/cells23_reference.tsv --oracle strict
 python evaluate.py real
 python evaluate.py general            # also: recoverable, realistic, loss-grid, factor-grid, parallel-control
-python timing.py loss-grid            # also: loss-grid
-python noisy_oracle.py               # 95% synthetic oracle on the clean ISA test set
+python timing.py loss-grid            
+python noisy_oracle.py                # 95% synthetic oracle on the clean ISA test set
 python train_accuracy.py              # oracle accuracy on training vs held-out data
 python figures_clean_isa.py; python fig_runtime_oracle.py; python fig_mixed_sets.py
 python PhISCS/exact_ml_tree.py --input data/sublines24_input.tsv --best data/sublines24_reference.tsv --fp 0.0001 --fn 0.075 --mip-rel-gap 0
