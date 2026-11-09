@@ -45,7 +45,7 @@ in `data/clean_isa/` (3,920 files, about 114 MB).
 | Oracle | File | Training data |
 |---|---|---|
 | combined | `models/combined.ubj` | 15,000 simulated datasets with mutation losses (random losses and region deletions) |
-| strict | `models/strict.ubj` | 15,000 datasets from the same simulators, mixture and seeds with every loss switched off (infinite-sites assumption), for the robustness tests; the random stream shifts at the first dataset with losses, so the trees differ from combined's |
+| strict | `models/strict.ubj` | 15,000 datasets from the same simulators, mixture, and seeds as combined, with mutation losses disabled (infinite-sites assumption), for robustness tests. The trees can differ because simulating losses uses additional random numbers. |
 
 Both are XGBoost classifiers (3 classes, depth 8, 600 rounds) on 58 inputs per ordered triplet (`features.py`), trained
 on 21.5 million labelled triplets (`train.py`). The labels come from the simulated trees: the tree of every training
