@@ -35,8 +35,8 @@ repository instead:
 .venv/bin/python fetch_cells23.py --source ../learning-augmented-tree-inference-LA-cells23-data
 ```
 
-The 23-cell download is needed for retraining, the realistic test, the clean ISA evaluation (which samples
-chromosome labels from the 23-cell input), and evaluation of the 23-cell real data. Running inference on the
+The 23-cell download is needed for retraining, the realistic test, and the clean ISA evaluation (which samples
+chromosome labels from the 23-cell input). Running inference on the
 included 24-subline matrix does not need this download. The clean ISA matrices and trees themselves are included
 in `data/clean_isa/` (3,920 files, about 114 MB).
 
@@ -59,26 +59,25 @@ dataset is generated first, so the answer to every triplet is known.
 | `features.py` | the oracle's 58 inputs and its predictions (probabilities averaged over the 6 cell orders) |
 | `la.py` | LA: top-down tree, small groups by whole-tree likelihood, agreement splitting, global search; mutation placement (plain, with losses in groups of cells, with one-cell losses); ScisTree2 alone |
 | `trees.py` | tree helpers |
-| `train.py` | trains either oracle (writes `models/<oracle>_retrained.ubj`, never the shipped files) |
+| `train.py` | trains either oracle (writes `models/<oracle>_retrained.ubj`|
 | `run.py` | LA on one matrix: tree, corrected matrix, summary |
 | `tests.py` | the simulated test sets and their scoring |
-| `evaluate.py` | both oracles and ScisTree2 on a test set or the real data, to `results/` (clades, triplets, genotype, ancestor-descendant and different-lineage accuracy, seconds) |
+| `evaluate.py` | both oracles and ScisTree2 on a test set or the 24 sublines dataset, to `results/` (clades, triplets, genotype, ancestor-descendant and different-lineage accuracy, seconds) |
 | `timing.py` | run times one dataset at a time with all threads, to `results/timing_<test>.csv` |
 | `noisy_oracle.py` | LA with the 95% synthetic oracle on the clean ISA test set, to `results/noisy-oracle-0.05.csv` |
 | `train_accuracy.py` | the main oracle's triplet accuracy on training vs held-out data, to `results/train-accuracy.csv` |
-| `figures_clean_isa.py` | paper figures on the clean ISA test set: Robinson-Foulds accuracy, genotype / AD / DL accuracy |
-| `fig_runtime_oracle.py` | paper figure: run time, and oracle accuracy on training vs held-out data |
+| `figures_clean_isa.py` | figures on the clean ISA test set: Robinson-Foulds accuracy, genotype / AD / DL accuracy |
+| `fig_runtime_oracle.py` | run time, and oracle accuracy on training vs held-out data |
 | `fig_mixed_sets.py` | Robinson-Foulds accuracy by cells and by mutations per cell, one row per test set |
 | `PhISCS/exact_ml_tree.py` | exact maximum-likelihood tree: the PhISCS integer program (no losses) solved with HiGHS |
 | `fetch_cells23.py` | downloads or copies the separately hosted 23-cell matrices and verifies their checksums |
-| `data/` | the 24-subline matrices, simulator settings, download manifest, and `clean_isa/`; downloaded 23-cell matrices are ignored by Git |
+| `data/` | the 24-subline matrices, simulator settings, download manifest, and `clean_isa/`|
 | `requirements.txt` | Python packages |
 
 ## Data and test sets
 
-Real data: `sublines24` (24 sublines x 1,689 mutations, curated matrix; reference = the released ScisTree tree,
-fp 0.0001, fn 0.075) and `cells23` (23 cells x 10,862 mutations, a separate calling of the same tumor; reference =
-its best tree, fp 0.001, fn 0.15).
+data: `sublines24` (24 sublines x 1,689 mutations, mutation matrix; reference = proven optimal tree from PhISCS,
+fp 0.0001, fn 0.075)
 
 Simulated test sets (`tests.py`): general (200, broad ranges, independent of the training simulators), recoverable (200),
 realistic (100), loss grid (1,680; random losses 0-40%), factor grid (2,160; deletions, parallel mutations, doublets,
