@@ -1,0 +1,401 @@
+{
+  "input": "data/sublines24_input.tsv",
+  "oracle": "combined",
+  "cells": 24,
+  "mutations": 1689,
+  "missing_share": 0.0011,
+  "fp": 0.0001,
+  "fn": 0.075,
+  "small_groups": "exhaustive",
+  "loss_aware_placement": true,
+  "one_cell_losses": true,
+  "seconds": {
+    "oracle": 0.154,
+    "tree": 0.032
+  },
+  "steps": {
+    "small groups": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      4,
+      4,
+      4
+    ],
+    "small-group changes": 1,
+    "agreement moves": 0,
+    "global moves": 0
+  },
+  "LA": {
+    "fp_corrections": 8,
+    "fn_corrections": 144,
+    "log10_likelihood": -548.9,
+    "plain_placement": {
+      "fp_corrections": 10,
+      "fn_corrections": 806,
+      "log10_likelihood": -1301.5
+    },
+    "losses_placed": 78,
+    "loss_aware_score": -1022.9,
+    "one_cell_losses": 24,
+    "zeros_kept": 350,
+    "one_cell_loss_calls": [
+      {
+        "cell": "C23",
+        "chrom": "16",
+        "zeros_kept": 15,
+        "ones_inside": 1,
+        "evidence": 21.2
+      },
+      {
+        "cell": "C22",
+        "chrom": "9",
+        "zeros_kept": 17,
+        "ones_inside": 0,
+        "evidence": 39.1
+      },
+      {
+        "cell": "C9",
+        "chrom": "16",
+        "zeros_kept": 15,
+        "ones_inside": 2,
+        "evidence": 31.8
+      },
+      {
+        "cell": "C19",
+        "chrom": "15",
+        "zeros_kept": 8,
+        "ones_inside": 6,
+        "evidence": 14.3
+      },
+      {
+        "cell": "C24",
+        "chrom": "11",
+        "zeros_kept": 6,
+        "ones_inside": 0,
+        "evidence": 13.8
+      },
+      {
+        "cell": "C18",
+        "chrom": "6",
+        "zeros_kept": 11,
+        "ones_inside": 50,
+        "evidence": 12.9
+      },
+      {
+        "cell": "C6",
+        "chrom": "18",
+        "zeros_kept": 5,
+        "ones_inside": 0,
+        "evidence": 11.5
+      },
+      {
+        "cell": "C15",
+        "chrom": "14",
+        "zeros_kept": 13,
+        "ones_inside": 13,
+        "evidence": 22.1
+      },
+      {
+        "cell": "C15",
+        "chrom": "6",
+        "zeros_kept": 11,
+        "ones_inside": 50,
+        "evidence": 12.9
+      },
+      {
+        "cell": "C14",
+        "chrom": "2",
+        "zeros_kept": 55,
+        "ones_inside": 7,
+        "evidence": 117.1
+      },
+      {
+        "cell": "C14",
+        "chrom": "5",
+        "zeros_kept": 11,
+        "ones_inside": 6,
+        "evidence": 20.5
+      },
+      {
+        "cell": "C16",
+        "chrom": "16",
+        "zeros_kept": 15,
+        "ones_inside": 5,
+        "evidence": 20.6
+      },
+      {
+        "cell": "C17",
+        "chrom": "15",
+        "zeros_kept": 8,
+        "ones_inside": 6,
+        "evidence": 14.3
+      },
+      {
+        "cell": "C17",
+        "chrom": "3",
+        "zeros_kept": 9,
+        "ones_inside": 13,
+        "evidence": 14.3
+      },
+      {
+        "cell": "C13",
+        "chrom": "14",
+        "zeros_kept": 24,
+        "ones_inside": 1,
+        "evidence": 29.4
+      },
+      {
+        "cell": "C13",
+        "chrom": "19",
+        "zeros_kept": 14,
+        "ones_inside": 1,
+        "evidence": 16.6
+      },
+      {
+        "cell": "C12",
+        "chrom": "15",
+        "zeros_kept": 8,
+        "ones_inside": 8,
+        "evidence": 13.6
+      },
+      {
+        "cell": "C12",
+        "chrom": "3",
+        "zeros_kept": 13,
+        "ones_inside": 4,
+        "evidence": 25.9
+      },
+      {
+        "cell": "C10",
+        "chrom": "15",
+        "zeros_kept": 8,
+        "ones_inside": 8,
+        "evidence": 13.6
+      },
+      {
+        "cell": "C10",
+        "chrom": "3",
+        "zeros_kept": 9,
+        "ones_inside": 13,
+        "evidence": 14.3
+      },
+      {
+        "cell": "C10",
+        "chrom": "5",
+        "zeros_kept": 8,
+        "ones_inside": 15,
+        "evidence": 12.0
+      },
+      {
+        "cell": "C11",
+        "chrom": "9",
+        "zeros_kept": 17,
+        "ones_inside": 0,
+        "evidence": 30.7
+      },
+      {
+        "cell": "C2",
+        "chrom": "13",
+        "zeros_kept": 27,
+        "ones_inside": 3,
+        "evidence": 57.9
+      },
+      {
+        "cell": "C2",
+        "chrom": "5",
+        "zeros_kept": 23,
+        "ones_inside": 9,
+        "evidence": 44.7
+      }
+    ],
+    "clades_in_reference": "22/22",
+    "triplet_agreement": 0.9397
+  },
+  "ScisTree2 alone": {
+    "fp_corrections": 8,
+    "fn_corrections": 144,
+    "log10_likelihood": -548.9,
+    "losses_placed": 78,
+    "loss_aware_score": -1022.9,
+    "one_cell_losses": 24,
+    "zeros_kept": 350,
+    "one_cell_loss_calls": [
+      {
+        "cell": "C23",
+        "chrom": "16",
+        "zeros_kept": 15,
+        "ones_inside": 1,
+        "evidence": 21.2
+      },
+      {
+        "cell": "C22",
+        "chrom": "9",
+        "zeros_kept": 17,
+        "ones_inside": 0,
+        "evidence": 39.1
+      },
+      {
+        "cell": "C9",
+        "chrom": "16",
+        "zeros_kept": 15,
+        "ones_inside": 2,
+        "evidence": 31.8
+      },
+      {
+        "cell": "C19",
+        "chrom": "15",
+        "zeros_kept": 8,
+        "ones_inside": 6,
+        "evidence": 14.3
+      },
+      {
+        "cell": "C24",
+        "chrom": "11",
+        "zeros_kept": 6,
+        "ones_inside": 0,
+        "evidence": 13.8
+      },
+      {
+        "cell": "C18",
+        "chrom": "6",
+        "zeros_kept": 11,
+        "ones_inside": 50,
+        "evidence": 12.9
+      },
+      {
+        "cell": "C6",
+        "chrom": "18",
+        "zeros_kept": 5,
+        "ones_inside": 0,
+        "evidence": 11.5
+      },
+      {
+        "cell": "C15",
+        "chrom": "14",
+        "zeros_kept": 13,
+        "ones_inside": 13,
+        "evidence": 22.1
+      },
+      {
+        "cell": "C15",
+        "chrom": "6",
+        "zeros_kept": 11,
+        "ones_inside": 50,
+        "evidence": 12.9
+      },
+      {
+        "cell": "C14",
+        "chrom": "2",
+        "zeros_kept": 55,
+        "ones_inside": 7,
+        "evidence": 117.1
+      },
+      {
+        "cell": "C14",
+        "chrom": "5",
+        "zeros_kept": 11,
+        "ones_inside": 6,
+        "evidence": 20.5
+      },
+      {
+        "cell": "C16",
+        "chrom": "16",
+        "zeros_kept": 15,
+        "ones_inside": 5,
+        "evidence": 20.6
+      },
+      {
+        "cell": "C17",
+        "chrom": "15",
+        "zeros_kept": 8,
+        "ones_inside": 6,
+        "evidence": 14.3
+      },
+      {
+        "cell": "C17",
+        "chrom": "3",
+        "zeros_kept": 9,
+        "ones_inside": 13,
+        "evidence": 14.3
+      },
+      {
+        "cell": "C13",
+        "chrom": "14",
+        "zeros_kept": 24,
+        "ones_inside": 1,
+        "evidence": 29.4
+      },
+      {
+        "cell": "C13",
+        "chrom": "19",
+        "zeros_kept": 14,
+        "ones_inside": 1,
+        "evidence": 16.6
+      },
+      {
+        "cell": "C12",
+        "chrom": "15",
+        "zeros_kept": 8,
+        "ones_inside": 8,
+        "evidence": 13.6
+      },
+      {
+        "cell": "C12",
+        "chrom": "3",
+        "zeros_kept": 13,
+        "ones_inside": 4,
+        "evidence": 25.9
+      },
+      {
+        "cell": "C10",
+        "chrom": "15",
+        "zeros_kept": 8,
+        "ones_inside": 8,
+        "evidence": 13.6
+      },
+      {
+        "cell": "C10",
+        "chrom": "3",
+        "zeros_kept": 9,
+        "ones_inside": 13,
+        "evidence": 14.3
+      },
+      {
+        "cell": "C10",
+        "chrom": "5",
+        "zeros_kept": 8,
+        "ones_inside": 15,
+        "evidence": 12.0
+      },
+      {
+        "cell": "C11",
+        "chrom": "9",
+        "zeros_kept": 17,
+        "ones_inside": 0,
+        "evidence": 30.7
+      },
+      {
+        "cell": "C2",
+        "chrom": "13",
+        "zeros_kept": 27,
+        "ones_inside": 3,
+        "evidence": 57.9
+      },
+      {
+        "cell": "C2",
+        "chrom": "5",
+        "zeros_kept": 23,
+        "ones_inside": 9,
+        "evidence": 44.7
+      }
+    ],
+    "clades_in_reference": "22/22"
+  },
+  "same_tree_as_ScisTree2": true,
+  "reference": "data/sublines24_reference.tsv"
+}

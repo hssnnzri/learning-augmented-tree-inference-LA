@@ -1,0 +1,59 @@
+cell_0	
+cell_1	
+cell_2	
+cell_3	
+cell_4	
+cell_5	
+cell_6	
+cell_7	
+cell_8	
+cell_9	
+cell_10	
+cell_11	
+cell_12	
+cell_13	
+cell_14	
+cell_15	
+cell_16	
+cell_17	
+cell_18	
+cell_19	
+cell_20	
+cell_21	
+cell_22	
+cell_23	
+cell_24	
+cell_25	
+cell_26	
+cell_27	
+cell_28	
+cell_29	
+cell_22,cell_23	mut7,mut15,mut42,mut49
+cell_28,cell_29	mut22,mut25,mut27,mut36
+cell_6,cell_7	mut8
+cell_25,cell_26	
+cell_13,cell_14	mut23,mut43
+cell_21,cell_22,cell_23	mut33
+cell_19,cell_20	mut34
+cell_17,cell_18	mut10,mut11,mut20
+cell_1,cell_2	mut6,mut45
+cell_12,cell_13,cell_14	mut37,mut40
+cell_19,cell_20,cell_21,cell_22,cell_23	mut32,mut39,mut44,mut48
+cell_5,cell_6,cell_7	
+cell_19,cell_20,cell_21,cell_22,cell_23,cell_24	mut24,mut26,mut35
+cell_15,cell_16	mut38,mut41
+cell_4,cell_5,cell_6,cell_7	mut4,mut28
+cell_9,cell_10	mut14
+cell_25,cell_26,cell_27	mut1,mut2,mut9,mut29,mut46
+cell_8,cell_9,cell_10	
+cell_25,cell_26,cell_27,cell_28,cell_29	mut21,mut30
+cell_3,cell_4,cell_5,cell_6,cell_7	mut12
+cell_17,cell_18,cell_19,cell_20,cell_21,cell_22,cell_23,cell_24	mut17,mut31
+cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10	mut3,mut16,mut47
+cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10	mut0
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10	
+cell_11,cell_12,cell_13,cell_14	mut19
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10,cell_11,cell_12,cell_13,cell_14	mut13
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16	mut18
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19,cell_20,cell_21,cell_22,cell_23,cell_24	mut5
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19,cell_20,cell_21,cell_22,cell_23,cell_24,cell_25,cell_26,cell_27,cell_28,cell_29	

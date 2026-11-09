@@ -1,0 +1,14 @@
+{
+  "source_url": "https://raw.githubusercontent.com/hssnnzri/learning-augmented-tree-inference-LA-cells23-data/main/",
+  "zenodo_record": "https://zenodo.org/records/20072601",
+  "files": {
+    "cells23_input.tsv": {
+      "sha256": "556b20beb36c6b8c805d990bc05bc60a8651342ab4307a63ede6ba3c1204f004",
+      "bytes": 669637
+    },
+    "cells23_reference.tsv": {
+      "sha256": "c80f2d1f4da07038cc1aa06ccc00c5b70af840552d70cf016f5e83b6cb8bfd28",
+      "bytes": 669637
+    }
+  }
+}
