@@ -64,7 +64,7 @@ dataset is generated first, so the answer to every triplet is known.
 | `run.py` | LA on one matrix: tree, corrected matrix, summary |
 | `tests.py` | the simulated test sets and their scoring |
 | `evaluate.py` | both oracles and ScisTree2 on a test set or the real data, to `results/` (clades, triplets, genotype, ancestor-descendant and different-lineage accuracy, seconds) |
-| `timing.py` | run times one dataset at a time with all threads (old-paper and loss-grid subsets), to `results/timing_<test>.csv` |
+| `timing.py` | run times one dataset at a time with all threads, to `results/timing_<test>.csv` |
 | `noisy_oracle.py` | LA with the 95% synthetic oracle on the clean ISA test set, to `results/noisy-oracle-0.05.csv` |
 | `train_accuracy.py` | the main oracle's triplet accuracy on training vs held-out data, to `results/train-accuracy.csv` |
 | `figures_clean_isa.py` | paper figures on the clean ISA test set: Robinson-Foulds accuracy, genotype / AD / DL accuracy |
@@ -86,7 +86,7 @@ Simulated test sets (`tests.py`): general (200, broad ranges, independent of the
 realistic (100), loss grid (1,680; random losses 0-40%), factor grid (2,160; deletions, parallel mutations, doublets,
 dropout, missing reads, false positives), parallel control (540; the factor grid's parallel datasets with both copies in
 one column, as there, or the second copy in its own column with the same reads: the cost of the violation at equal
-information), old paper = clean ISA (3,360; the paper's previous simulations, 20-100 cells, in `data/clean_isa/`: ISA,
+information), clean ISA (3,360; 20-100 cells, in `data/clean_isa/`: ISA,
 mutations placed uniformly on internal edges, one error rate, no missing reads).
 
 Ancestor-descendant and different-lineage accuracy leave out the mutations changed by ISA violations (losses, deletions,
@@ -102,8 +102,8 @@ Commands using the 23-cell data require the download above.
 python run.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --reference data/sublines24_reference.tsv
 python run.py --input data/cells23_input.tsv --fp 0.001 --fn 0.15 --reference data/cells23_reference.tsv --oracle strict
 python evaluate.py real
-python evaluate.py general            # also: recoverable, realistic, loss-grid, factor-grid, parallel-control, old-paper
-python timing.py old-paper            # also: loss-grid
+python evaluate.py general            # also: recoverable, realistic, loss-grid, factor-grid, parallel-control
+python timing.py            # also: loss-grid
 python noisy_oracle.py               # 95% synthetic oracle on the clean ISA test set
 python train_accuracy.py              # oracle accuracy on training vs held-out data
 python figures_clean_isa.py; python fig_runtime_oracle.py; python fig_mixed_sets.py
