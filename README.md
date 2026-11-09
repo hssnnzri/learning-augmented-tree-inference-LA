@@ -10,19 +10,13 @@ that use it. Historical experiments remain in the local research archive and are
 
 The calibration matrix, comprising data from 23 sublines, was obtained from a previously published study:
 [Liu et al., Nature Communications 17, 8740 (2026)](https://doi.org/10.1038/s41467-026-75172-9).
-We use this matrix to calibrate some of the synthetic training datasets, rather than treating its measurements as
-synthetic training examples. Calibration uses fitted tree and noise parameters, per-cell missing-data rates, and
-chromosome labels and genomic positions. Simulated trees and mutation measurements are generated anew.
+Synthetic training datasets were generated using fitted tree and noise parameters, per-cell missing-data rates,
+and genomic coordinates derived from this matrix.
 The BibTeX entry is provided as `longreadpaper2026` in [references.bib](references.bib).
 
-The cleared 24-subline input and reference matrices are included in `data/`. The original 23-cell input and
-reference matrices, together with the saved 23-cell inference outputs, are in the
-[temporary 23-cell data repository](https://github.com/hssnnzri/learning-augmented-tree-inference-LA-cells23-data).
-The main repository includes the generated simulations, fitted simulator settings, trained models, and summary results.
-The MIT license covers this project's software; the citation above identifies the source of the study data.
-
-After the [Zenodo archive](https://zenodo.org/records/20072601) is repaired and its files are checked, we will replace
-the temporary repository link and download source with Zenodo, then retire the temporary repository.
+The 24-subline input and reference matrices are included in `data/`. The 23-cell input and reference matrices
+and saved inference outputs are available in the
+[23-cell data repository](https://github.com/hssnnzri/learning-augmented-tree-inference-LA-cells23-data).
 
 ## Setup and 23-cell data download
 
@@ -35,7 +29,7 @@ python3 -m venv .venv
 ```
 
 The downloader checks SHA-256 hashes and saves the two matrices as `data/cells23_input.tsv` and
-`data/cells23_reference.tsv`. These downloaded files are ignored by Git. To use a local clone of the temporary
+`data/cells23_reference.tsv`. These downloaded files are ignored by Git. To use a local clone of the data
 repository instead:
 
 ```bash
