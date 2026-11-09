@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local archives, generated state, and externally hosted 23-cell data
+.DS_Store
+.vscode/
+/archive/
+/data/cells23_*
+/results/cells23_*
+/results/*_partial.csv
+/train_blocks_*/

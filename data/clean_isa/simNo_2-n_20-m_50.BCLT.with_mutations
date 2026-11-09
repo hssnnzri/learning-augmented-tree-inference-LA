@@ -1,0 +1,39 @@
+cell_0	
+cell_1	
+cell_2	
+cell_3	
+cell_4	
+cell_5	
+cell_6	
+cell_7	
+cell_8	
+cell_9	
+cell_10	
+cell_11	
+cell_12	
+cell_13	
+cell_14	
+cell_15	
+cell_16	
+cell_17	
+cell_18	
+cell_19	
+cell_13,cell_14	mut4,mut13,mut20,mut35
+cell_2,cell_3	mut0,mut19,mut34,mut45,mut47
+cell_11,cell_12	mut27,mut29
+cell_9,cell_10	mut37,mut41
+cell_17,cell_18	mut2,mut9,mut15,mut31,mut32
+cell_5,cell_6	mut6,mut28
+cell_2,cell_3,cell_4	mut1,mut8,mut17,mut22,mut26,mut38,mut46
+cell_13,cell_14,cell_15	mut7,mut25,mut36
+cell_9,cell_10,cell_11,cell_12	mut24,mut30
+cell_8,cell_9,cell_10,cell_11,cell_12	mut16
+cell_13,cell_14,cell_15,cell_16	mut14,mut18,mut33,mut48
+cell_1,cell_2,cell_3,cell_4	
+cell_17,cell_18,cell_19	mut10
+cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19	mut40,mut43
+cell_0,cell_1,cell_2,cell_3,cell_4	
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6	mut21,mut44,mut49
+cell_8,cell_9,cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19	mut3,mut12,mut39
+cell_7,cell_8,cell_9,cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19	mut5,mut11,mut23,mut42
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19	

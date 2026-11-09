@@ -1,0 +1,99 @@
+cell_0	
+cell_1	
+cell_2	
+cell_3	
+cell_4	
+cell_5	
+cell_6	
+cell_7	
+cell_8	
+cell_9	
+cell_10	
+cell_11	
+cell_12	
+cell_13	
+cell_14	
+cell_15	
+cell_16	
+cell_17	
+cell_18	
+cell_19	
+cell_20	
+cell_21	
+cell_22	
+cell_23	
+cell_24	
+cell_25	
+cell_26	
+cell_27	
+cell_28	
+cell_29	
+cell_30	
+cell_31	
+cell_32	
+cell_33	
+cell_34	
+cell_35	
+cell_36	
+cell_37	
+cell_38	
+cell_39	
+cell_40	
+cell_41	
+cell_42	
+cell_43	
+cell_44	
+cell_45	
+cell_46	
+cell_47	
+cell_48	
+cell_49	
+cell_25,cell_26	mut51,mut52,mut66,mut207,mut217,mut230,mut241,mut417,mut446,mut465,mut486,mut533,mut553,mut574,mut581,mut613,mut696,mut708,mut723,mut812,mut950,mut993
+cell_23,cell_24	mut194,mut268,mut310,mut425,mut468,mut511,mut560,mut578,mut584,mut604,mut667,mut719,mut755,mut775,mut827,mut873,mut879,mut922
+cell_6,cell_7	mut45,mut80,mut88,mut131,mut149,mut186,mut277,mut378,mut549,mut606,mut611,mut669,mut673,mut705,mut778,mut970,mut979
+cell_45,cell_46	mut57,mut121,mut161,mut177,mut400,mut423,mut435,mut463,mut527,mut540,mut570,mut588,mut617,mut630,mut738,mut753,mut935,mut968
+cell_12,cell_13	mut35,mut155,mut157,mut272,mut335,mut339,mut518,mut594,mut619,mut676,mut706,mut837,mut912,mut929,mut987
+cell_21,cell_22	mut9,mut31,mut118,mut158,mut221,mut256,mut267,mut307,mut377,mut453,mut469,mut494,mut567,mut607,mut609,mut615,mut622,mut730,mut852,mut891,mut900,mut944
+cell_43,cell_44	mut7,mut47,mut67,mut122,mut129,mut204,mut225,mut238,mut249,mut362,mut374,mut432,mut434,mut455,mut683,mut752,mut769,mut783,mut906,mut920,mut949,mut971
+cell_20,cell_21,cell_22	mut43,mut54,mut64,mut106,mut197,mut322,mut334,mut345,mut408,mut410,mut479,mut558,mut573,mut601,mut605,mut692,mut694,mut695,mut809,mut822,mut847,mut894
+cell_16,cell_17	mut1,mut10,mut63,mut65,mut74,mut100,mut108,mut251,mut438,mut439,mut621,mut664,mut691,mut817,mut826,mut913,mut921
+cell_18,cell_19	mut81,mut143,mut147,mut154,mut156,mut160,mut212,mut215,mut252,mut257,mut333,mut337,mut384,mut401,mut445,mut471,mut496,mut519,mut608,mut727,mut739,mut754,mut774,mut784,mut810,mut818,mut884,mut931,mut934,mut939
+cell_15,cell_16,cell_17	mut82,mut113,mut151,mut182,mut189,mut325,mut392,mut424,mut500,mut679,mut685,mut831,mut908,mut911,mut924,mut938,mut947,mut976
+cell_15,cell_16,cell_17,cell_18,cell_19	mut26,mut48,mut87,mut164,mut165,mut216,mut262,mut289,mut292,mut314,mut332,mut380,mut497,mut509,mut625,mut644,mut649,mut750,mut763,mut794,mut819,mut863,mut961,mut996
+cell_8,cell_9	mut86,mut166,mut169,mut181,mut206,mut222,mut255,mut285,mut340,mut358,mut422,mut461,mut477,mut521,mut559,mut595,mut640,mut731,mut735,mut764,mut788,mut838,mut844,mut851,mut917,mut994
+cell_32,cell_33	mut14,mut107,mut114,mut144,mut159,mut233,mut282,mut284,mut297,mut473,mut528,mut544,mut563,mut674,mut702,mut797,mut821
+cell_0,cell_1	mut175,mut203,mut218,mut260,mut286,mut306,mut312,mut395,mut430,mut483,mut522,mut531,mut623,mut627,mut653,mut672,mut759,mut762,mut853,mut907,mut919,mut975,mut999
+cell_14,cell_15,cell_16,cell_17,cell_18,cell_19	mut85,mut199,mut200,mut248,mut341,mut464,mut470,mut488,mut489,mut523,mut661,mut733,mut843,mut861,mut870,mut925,mut958,mut986
+cell_40,cell_41	mut22,mut84,mut190,mut195,mut220,mut223,mut266,mut295,mut352,mut360,mut369,mut385,mut405,mut409,mut458,mut517,mut564,mut655,mut712,mut871,mut909
+cell_45,cell_46,cell_47	mut15,mut30,mut117,mut168,mut269,mut281,mut296,mut302,mut303,mut311,mut346,mut368,mut372,mut415,mut447,mut466,mut495,mut514,mut586,mut618,mut647,mut682,mut742,mut751,mut808,mut859,mut904,mut928,mut952,mut969
+cell_3,cell_4	mut53,mut317,mut350,mut363,mut387,mut437,mut476,mut492,mut577,mut579,mut593,mut662,mut698,mut703,mut782,mut937
+cell_36,cell_37	mut6,mut110,mut171,mut178,mut219,mut276,mut299,mut418,mut472,mut474,mut572,mut643,mut668,mut689,mut745,mut790,mut868,mut936,mut984
+cell_25,cell_26,cell_27	mut185,mut259,mut390,mut403,mut404,mut555,mut583,mut585,mut598,mut620,mut650,mut666,mut915,mut940
+cell_6,cell_7,cell_8,cell_9	mut91,mut187,mut192,mut308,mut319,mut493,mut515,mut612,mut636,mut657,mut732,mut740,mut743,mut749,mut792,mut882
+cell_3,cell_4,cell_5	mut28,mut49,mut92,mut101,mut167,mut174,mut239,mut254,mut444,mut459,mut525,mut529,mut534,mut599,mut632,mut658,mut665,mut729,mut765,mut802,mut846,mut856,mut866,mut888,mut965
+cell_28,cell_29	mut12,mut20,mut23,mut69,mut162,mut261,mut263,mut343,mut348,mut485,mut513,mut590,mut697,mut709,mut737,mut761,mut800,mut902,mut914,mut923,mut966,mut981,mut992
+cell_31,cell_32,cell_33	mut27,mut78,mut119,mut172,mut191,mut198,mut224,mut274,mut279,mut376,mut413,mut416,mut419,mut449,mut502,mut532,mut591,mut721,mut722,mut772,mut789,mut840,mut862,mut881
+cell_11,cell_12,cell_13	mut34,mut173,mut210,mut250,mut498,mut538,mut562,mut565,mut670,mut711,mut758,mut849,mut901,mut942
+cell_48,cell_49	mut72,mut103,mut323,mut373,mut508,mut526,mut536,mut537,mut542,mut547,mut571,mut596,mut656,mut700,mut704,mut825,mut829,mut845,mut962,mut997
+cell_38,cell_39	mut17,mut25,mut32,mut70,mut134,mut137,mut150,mut278,mut330,mut407,mut475,mut506,mut576,mut628,mut659,mut726,mut736,mut773,mut779,mut806,mut872,mut932,mut973
+cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19	mut109,mut124,mut145,mut270,mut288,mut331,mut359,mut399,mut450,mut482,mut592,mut741,mut747,mut875,mut918,mut926
+cell_45,cell_46,cell_47,cell_48,cell_49	mut38,mut120,mut205,mut271,mut294,mut347,mut365,mut394,mut441,mut454,mut481,mut490,mut545,mut587,mut634,mut648,mut660,mut681,mut693,mut720,mut834,mut953,mut960,mut983,mut988
+cell_2,cell_3,cell_4,cell_5	mut21,mut61,mut94,mut152,mut163,mut227,mut300,mut329,mut338,mut389,mut420,mut516,mut535,mut541,mut543,mut546,mut582,mut637,mut678,mut780,mut869,mut991
+cell_40,cell_41,cell_42	mut19,mut46,mut58,mut60,mut208,mut211,mut228,mut247,mut324,mut326,mut344,mut367,mut393,mut427,mut524,mut680,mut684,mut746,mut768,mut903,mut916,mut956
+cell_36,cell_37,cell_38,cell_39	mut125,mut180,mut316,mut336,mut411,mut414,mut421,mut431,mut499,mut568,mut614,mut633,mut885,mut889,mut895,mut927,mut945,mut963,mut964,mut980,mut982
+cell_35,cell_36,cell_37,cell_38,cell_39	mut29,mut37,mut201,mut236,mut298,mut351,mut391,mut429,mut460,mut507,mut561,mut654,mut677,mut699,mut734,mut771,mut785,mut816,mut865,mut897,mut941,mut957,mut995
+cell_40,cell_41,cell_42,cell_43,cell_44	mut5,mut140,mut148,mut193,mut214,mut243,mut264,mut301,mut370,mut386,mut396,mut442,mut641,mut671,mut728,mut836,mut874,mut905,mut948
+cell_28,cell_29,cell_30	mut11,mut83,mut153,mut202,mut244,mut273,mut280,mut304,mut305,mut309,mut467,mut491,mut505,mut638,mut713,mut756,mut793,mut813,mut832,mut833,mut839,mut850,mut860,mut880,mut887,mut933,mut989,mut998
+cell_40,cell_41,cell_42,cell_43,cell_44,cell_45,cell_46,cell_47,cell_48,cell_49	mut76,mut245,mut246,mut321,mut342,mut381,mut457,mut624,mut646,mut651,mut686,mut714,mut760,mut766,mut796,mut830,mut893,mut896,mut974,mut977
+cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19,cell_20,cell_21,cell_22	mut50,mut62,mut68,mut73,mut75,mut105,mut184,mut235,mut283,mut349,mut356,mut397,mut456,mut501,mut539,mut548,mut616,mut626,mut652,mut690,mut716,mut791,mut848,mut883,mut890
+cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9	mut3,mut16,mut39,mut40,mut41,mut71,mut77,mut141,mut234,mut293,mut412,mut478,mut503,mut554,mut718,mut823,mut867,mut990
+cell_25,cell_26,cell_27,cell_28,cell_29,cell_30	mut112,mut123,mut126,mut133,mut135,mut179,mut188,mut213,mut229,mut240,mut253,mut290,mut354,mut484,mut639,mut642,mut663,mut744,mut799,mut807,mut855
+cell_25,cell_26,cell_27,cell_28,cell_29,cell_30,cell_31,cell_32,cell_33	mut0,mut13,mut42,mut79,mut99,mut102,mut104,mut115,mut209,mut258,mut313,mut320,mut436,mut440,mut575,mut610,mut675,mut715,mut757,mut811,mut828,mut878,mut954,mut967
+cell_25,cell_26,cell_27,cell_28,cell_29,cell_30,cell_31,cell_32,cell_33,cell_34	mut44,mut97,mut136,mut183,mut196,mut237,mut327,mut353,mut426,mut433,mut530,mut551,mut556,mut603,mut629,mut687,mut777,mut798,mut805,mut842,mut857,mut910
+cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19,cell_20,cell_21,cell_22	mut56,mut95,mut146,mut406,mut428,mut448,mut504,mut597,mut776,mut841,mut930,mut955
+cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19,cell_20,cell_21,cell_22,cell_23,cell_24	mut127,mut366,mut379,mut383,mut452,mut552,mut557,mut569,mut580,mut589,mut631,mut645,mut724,mut767,mut770,mut804,mut820,mut864,mut959,mut972
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9	mut18,mut24,mut36,mut59,mut90,mut93,mut132,mut138,mut232,mut291,mut364,mut375,mut388,mut398,mut443,mut510,mut520,mut635,mut701,mut707,mut717,mut795,mut803,mut814,mut854,mut858,mut892,mut899,mut946,mut985
+cell_25,cell_26,cell_27,cell_28,cell_29,cell_30,cell_31,cell_32,cell_33,cell_34,cell_35,cell_36,cell_37,cell_38,cell_39	mut4,mut8,mut96,mut128,mut176,mut275,mut318,mut328,mut480,mut512,mut688,mut725,mut748,mut787,mut898
+cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19,cell_20,cell_21,cell_22,cell_23,cell_24,cell_25,cell_26,cell_27,cell_28,cell_29,cell_30,cell_31,cell_32,cell_33,cell_34,cell_35,cell_36,cell_37,cell_38,cell_39	mut33,mut98,mut111,mut142,mut226,mut242,mut265,mut355,mut361,mut371,mut402,mut451,mut462,mut550,mut566,mut602,mut710,mut786,mut815,mut877,mut951,mut978
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19,cell_20,cell_21,cell_22,cell_23,cell_24,cell_25,cell_26,cell_27,cell_28,cell_29,cell_30,cell_31,cell_32,cell_33,cell_34,cell_35,cell_36,cell_37,cell_38,cell_39	mut2,mut55,mut89,mut116,mut130,mut139,mut170,mut231,mut287,mut315,mut357,mut382,mut487,mut600,mut781,mut801,mut824,mut835,mut876,mut886,mut943
+cell_0,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8,cell_9,cell_10,cell_11,cell_12,cell_13,cell_14,cell_15,cell_16,cell_17,cell_18,cell_19,cell_20,cell_21,cell_22,cell_23,cell_24,cell_25,cell_26,cell_27,cell_28,cell_29,cell_30,cell_31,cell_32,cell_33,cell_34,cell_35,cell_36,cell_37,cell_38,cell_39,cell_40,cell_41,cell_42,cell_43,cell_44,cell_45,cell_46,cell_47,cell_48,cell_49	

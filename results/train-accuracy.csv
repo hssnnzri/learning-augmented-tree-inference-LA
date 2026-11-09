@@ -1,0 +1,1201 @@
+data,part,dataset,cells,mutations,triplets,accuracy
+held out,R,0,68,4535,1500,0.958
+held out,R,1,34,244,1500,0.928
+held out,R,2,20,320,1140,0.7421
+held out,R,3,72,4330,1500,0.7113
+held out,R,4,40,462,1500,0.9527
+held out,R,5,77,10509,1500,0.8653
+held out,R,6,33,5691,1500,0.9993
+held out,R,7,64,98,1500,0.7413
+held out,R,8,50,919,1500,0.9813
+held out,R,9,92,11909,1500,0.9407
+held out,R,10,65,1151,1500,0.554
+held out,R,11,61,790,1500,0.844
+held out,R,12,91,468,1500,0.8513
+held out,R,13,98,119,1500,0.8987
+held out,R,14,85,4711,1500,0.9227
+held out,R,15,85,6053,1500,0.8473
+held out,R,16,34,1632,1500,0.99
+held out,R,17,93,739,1500,0.9787
+held out,R,18,41,555,1500,0.9473
+held out,R,19,34,1277,1500,0.77
+held out,R,20,54,549,1500,0.9547
+held out,R,21,58,1436,1500,0.7833
+held out,R,22,53,189,1500,0.5927
+held out,R,23,93,86,1500,0.6273
+held out,R,24,93,473,1500,0.7867
+held out,R,25,95,7150,1500,0.9813
+held out,R,26,92,61,1500,0.6853
+held out,R,27,81,394,1500,0.6387
+held out,R,28,22,89,1500,0.6987
+held out,R,29,79,1896,1500,0.9713
+held out,R,30,67,4840,1500,0.7787
+held out,R,31,85,5964,1500,0.976
+held out,R,32,20,1994,1140,0.9053
+held out,R,33,42,1702,1500,0.8987
+held out,R,34,68,537,1500,0.6333
+held out,R,35,83,89,1500,0.4233
+held out,R,36,34,183,1500,0.8593
+held out,R,37,47,4964,1500,0.9687
+held out,R,38,52,2199,1500,0.9713
+held out,R,39,27,4365,1500,0.844
+held out,R,40,58,1192,1500,0.936
+held out,R,41,34,828,1500,0.974
+held out,R,42,33,510,1500,0.916
+held out,R,43,82,459,1500,0.9627
+held out,R,44,35,6527,1500,0.838
+held out,R,45,23,4879,1500,0.7907
+held out,R,46,49,2846,1500,0.8933
+held out,R,47,55,3186,1500,0.9533
+held out,R,48,63,1192,1500,0.7413
+held out,R,49,49,1619,1500,0.7447
+held out,R,50,80,558,1500,0.8373
+held out,R,51,60,6113,1500,0.9193
+held out,R,52,56,406,1500,0.63
+held out,R,53,42,3365,1500,0.9227
+held out,R,54,77,169,1500,0.7153
+held out,R,55,99,445,1500,0.9673
+held out,R,56,89,538,1500,0.5627
+held out,R,57,98,3286,1500,0.906
+held out,R,58,56,3045,1500,0.838
+held out,R,59,70,155,1500,0.8307
+held out,R,60,38,4509,1500,0.9093
+held out,R,61,80,955,1500,0.8413
+held out,R,62,76,2677,1500,0.9153
+held out,R,63,69,197,1500,0.6407
+held out,R,64,50,254,1500,0.71
+held out,R,65,62,392,1500,0.532
+held out,R,66,52,739,1500,0.5873
+held out,R,67,77,553,1500,0.878
+held out,R,68,89,1226,1500,0.4773
+held out,R,69,20,1500,1140,0.8728
+held out,R,70,50,169,1500,0.7447
+held out,R,71,35,283,1500,0.74
+held out,R,72,49,287,1500,0.8147
+held out,R,73,76,1936,1500,0.9193
+held out,R,74,55,227,1500,0.8367
+held out,R,75,71,4234,1500,0.9713
+held out,R,76,75,1340,1500,0.9907
+held out,R,77,26,1604,1500,0.9887
+held out,R,78,68,6967,1500,0.9787
+held out,R,79,79,82,1500,0.678
+held out,R,80,61,400,1500,0.8853
+held out,R,81,32,1780,1500,0.948
+held out,R,82,72,6524,1500,0.9947
+held out,R,83,76,70,1500,0.442
+held out,R,84,81,163,1500,0.5293
+held out,R,85,73,2988,1500,0.7153
+held out,R,86,27,343,1500,0.9473
+held out,R,87,96,464,1500,0.8653
+held out,R,88,56,399,1500,0.574
+held out,R,89,42,299,1500,0.8573
+held out,R,90,58,3628,1500,0.7
+held out,R,91,76,120,1500,0.8707
+held out,R,92,58,2560,1500,0.8227
+held out,R,93,97,83,1500,0.5607
+held out,R,94,81,2767,1500,0.9627
+held out,R,95,55,2918,1500,0.9247
+held out,R,96,67,602,1500,0.806
+held out,R,97,48,6178,1500,0.862
+held out,R,98,73,6502,1500,0.9753
+held out,R,99,73,413,1500,0.5553
+held out,few,0,38,644,1500,1.0
+held out,few,1,63,429,1500,0.7707
+held out,few,2,34,747,1500,0.9787
+held out,few,3,57,777,1500,0.9527
+held out,few,4,34,392,1500,0.9647
+held out,few,5,56,464,1500,0.6513
+held out,few,6,98,572,1500,0.8873
+held out,few,7,55,787,1500,0.7347
+held out,few,8,90,2953,1500,0.7953
+held out,few,9,59,647,1500,0.798
+held out,few,10,60,2630,1500,0.936
+held out,few,11,58,923,1500,0.958
+held out,few,12,64,900,1500,0.7347
+held out,few,13,60,1242,1500,0.9253
+held out,few,14,78,2518,1500,0.8253
+held out,few,15,53,351,1500,0.5093
+held out,few,16,63,775,1500,0.766
+held out,few,17,64,1016,1500,0.9587
+held out,few,18,44,225,1500,0.9707
+held out,few,19,24,222,1500,0.9893
+held out,few,20,41,354,1500,0.9513
+held out,few,21,63,1630,1500,0.8833
+held out,few,22,49,640,1500,0.5727
+held out,few,23,77,1540,1500,0.8447
+held out,few,24,70,1497,1500,0.848
+held out,few,25,63,2441,1500,0.9687
+held out,few,26,51,754,1500,0.7087
+held out,few,27,51,429,1500,0.88
+held out,few,28,39,208,1500,0.8353
+held out,few,29,20,473,1140,0.9737
+held out,few,30,77,1382,1500,0.9793
+held out,few,31,33,604,1500,0.558
+held out,few,32,66,1633,1500,0.96
+held out,few,33,85,1942,1500,0.934
+held out,few,34,46,341,1500,0.8233
+held out,few,35,73,1042,1500,0.642
+held out,few,36,32,133,1500,0.8153
+held out,few,37,60,1215,1500,0.9727
+held out,few,38,50,1585,1500,0.7873
+held out,few,39,67,802,1500,0.8013
+held out,few,40,51,613,1500,0.8107
+held out,few,41,53,630,1500,0.9053
+held out,few,42,82,3770,1500,0.574
+held out,few,43,63,525,1500,0.8867
+held out,few,44,67,2129,1500,0.778
+held out,few,45,100,569,1500,0.916
+held out,few,46,58,2528,1500,0.9987
+held out,few,47,36,610,1500,0.58
+held out,few,48,27,196,1500,0.9727
+held out,few,49,83,799,1500,0.88
+held out,few,50,55,302,1500,0.9693
+held out,few,51,33,1015,1500,0.9653
+held out,few,52,56,2565,1500,0.9953
+held out,few,53,34,310,1500,0.788
+held out,few,54,50,1542,1500,0.6787
+held out,few,55,84,1452,1500,0.916
+held out,few,56,89,1262,1500,0.85
+held out,few,57,59,1958,1500,0.9173
+held out,few,58,94,4030,1500,0.836
+held out,few,59,23,255,1500,0.7587
+held out,few,60,29,166,1500,0.962
+held out,few,61,69,728,1500,0.74
+held out,few,62,88,852,1500,0.498
+held out,few,63,57,1197,1500,0.9167
+held out,few,64,94,2119,1500,0.7247
+held out,few,65,74,409,1500,0.882
+held out,few,66,71,704,1500,0.89
+held out,few,67,21,474,1330,0.9474
+held out,few,68,24,265,1500,0.978
+held out,few,69,67,721,1500,0.9307
+held out,few,70,97,647,1500,0.974
+held out,few,71,42,967,1500,0.8153
+held out,few,72,61,2883,1500,0.878
+held out,few,73,31,239,1500,0.7647
+held out,few,74,22,404,1500,0.86
+held out,few,75,94,1530,1500,0.4987
+held out,few,76,79,2543,1500,0.9747
+held out,few,77,87,728,1500,0.964
+held out,few,78,27,565,1500,0.9093
+held out,few,79,23,337,1500,0.8853
+held out,few,80,40,256,1500,0.986
+held out,few,81,54,1501,1500,0.9447
+held out,few,82,37,1051,1500,0.69
+held out,few,83,59,306,1500,0.7913
+held out,few,84,60,404,1500,0.64
+held out,few,85,41,1113,1500,0.9587
+held out,few,86,77,3564,1500,0.9113
+held out,few,87,50,2258,1500,0.8753
+held out,few,88,54,2374,1500,0.926
+held out,few,89,55,1065,1500,0.6447
+held out,few,90,68,2670,1500,0.87
+held out,few,91,41,613,1500,0.8613
+held out,few,92,80,2030,1500,0.7007
+held out,few,93,58,378,1500,0.58
+held out,few,94,81,803,1500,0.6967
+held out,few,95,22,57,1500,0.7413
+held out,few,96,80,2634,1500,0.8567
+held out,few,97,65,398,1500,0.7147
+held out,few,98,65,341,1500,0.9653
+held out,few,99,86,479,1500,0.938
+held out,general,0,33,607,1500,0.7507
+held out,general,1,34,756,1500,0.802
+held out,general,2,24,2205,1500,0.9507
+held out,general,3,36,994,1500,0.9307
+held out,general,4,25,694,1500,0.96
+held out,general,5,24,1468,1500,0.9993
+held out,general,6,36,3700,1500,0.5793
+held out,general,7,30,2272,1500,0.9213
+held out,general,8,26,1027,1500,0.9907
+held out,general,9,18,9665,816,0.951
+held out,general,10,30,786,1500,0.876
+held out,general,11,27,7147,1500,0.95
+held out,general,12,26,1455,1500,0.8493
+held out,general,13,17,2177,680,1.0
+held out,general,14,37,8879,1500,0.7793
+held out,general,15,30,1116,1500,0.8007
+held out,general,16,34,2670,1500,0.8047
+held out,general,17,22,5710,1500,0.662
+held out,general,18,23,738,1500,0.9947
+held out,general,19,30,4763,1500,0.7647
+held out,general,20,18,9048,816,0.8162
+held out,general,21,27,2726,1500,0.9927
+held out,general,22,27,1822,1500,0.9387
+held out,general,23,32,2338,1500,0.9473
+held out,general,24,36,2690,1500,0.8847
+held out,general,25,40,6367,1500,0.5247
+held out,general,26,38,2851,1500,1.0
+held out,general,27,25,3027,1500,0.9693
+held out,general,28,22,1282,1500,0.8307
+held out,general,29,29,3479,1500,0.9487
+held out,general,30,22,1200,1500,0.8767
+held out,general,31,34,6592,1500,0.74
+held out,general,32,39,811,1500,0.7793
+held out,general,33,39,13946,1500,0.9753
+held out,general,34,16,2594,560,0.9893
+held out,general,35,36,1008,1500,0.9213
+held out,general,36,21,9894,1330,1.0
+held out,general,37,32,13760,1500,0.9313
+held out,general,38,25,2818,1500,0.9953
+held out,general,39,28,2383,1500,0.996
+held out,general,40,18,6163,816,0.6679
+held out,general,41,21,1047,1330,0.9571
+held out,general,42,25,3368,1500,0.9633
+held out,general,43,36,2022,1500,0.8293
+held out,general,44,20,1010,1140,0.8623
+held out,general,45,23,3957,1500,0.66
+held out,general,46,21,4213,1330,0.9632
+held out,general,47,17,3508,680,0.8912
+held out,general,48,26,1810,1500,0.5807
+held out,general,49,33,844,1500,0.9493
+held out,general,50,32,812,1500,0.96
+held out,general,51,18,5073,816,0.8321
+held out,general,52,18,9199,816,1.0
+held out,general,53,17,4290,680,0.7971
+held out,general,54,17,3592,680,0.7368
+held out,general,55,24,4710,1500,0.958
+held out,general,56,24,4438,1500,0.9587
+held out,general,57,26,13733,1500,0.9487
+held out,general,58,24,6728,1500,0.892
+held out,general,59,23,1511,1500,0.86
+held out,general,60,33,8448,1500,0.8893
+held out,general,61,19,1575,969,0.8978
+held out,general,62,29,3464,1500,0.94
+held out,general,63,16,6743,560,0.8696
+held out,general,64,39,3274,1500,0.7613
+held out,general,65,22,2193,1500,0.5793
+held out,general,66,25,1656,1500,0.9827
+held out,general,67,34,8949,1500,0.9827
+held out,general,68,36,2858,1500,0.914
+held out,general,69,39,2963,1500,0.9793
+held out,general,70,23,3500,1500,0.926
+held out,general,71,35,9155,1500,0.9813
+held out,general,72,31,3786,1500,0.9207
+held out,general,73,39,1660,1500,0.942
+held out,general,74,26,4078,1500,0.966
+held out,general,75,31,10493,1500,0.928
+held out,general,76,36,1305,1500,0.8967
+held out,general,77,33,2289,1500,0.9887
+held out,general,78,28,5085,1500,0.89
+held out,general,79,27,1930,1500,0.8933
+held out,general,80,16,5569,560,1.0
+held out,general,81,30,3427,1500,0.884
+held out,general,82,29,4108,1500,0.9633
+held out,general,83,31,3075,1500,0.7347
+held out,general,84,26,2537,1500,0.8007
+held out,general,85,38,1942,1500,0.7307
+held out,general,86,27,10690,1500,0.9887
+held out,general,87,30,1780,1500,0.916
+held out,general,88,19,10358,969,0.9443
+held out,general,89,33,705,1500,0.8593
+held out,general,90,21,13785,1330,0.9338
+held out,general,91,23,1289,1500,0.974
+held out,general,92,40,8625,1500,0.66
+held out,general,93,17,9996,680,0.6809
+held out,general,94,21,784,1330,0.7398
+held out,general,95,33,802,1500,0.9493
+held out,general,96,37,1479,1500,0.976
+held out,general,97,16,3109,560,0.8196
+held out,general,98,18,1280,816,0.8603
+held out,general,99,29,2299,1500,0.4547
+held out,general extra,0,34,1485,1500,0.6687
+held out,general extra,1,37,1461,1500,0.9453
+held out,general extra,2,29,2801,1500,0.6153
+held out,general extra,3,38,976,1500,0.996
+held out,general extra,4,37,1422,1500,0.7447
+held out,general extra,5,28,4409,1500,0.9267
+held out,general extra,6,33,3525,1500,0.664
+held out,general extra,7,30,10945,1500,0.9953
+held out,general extra,8,40,1728,1500,1.0
+held out,general extra,9,16,3775,560,0.9018
+held out,general extra,10,18,3785,816,0.8064
+held out,general extra,11,35,944,1500,0.87
+held out,general extra,12,32,3336,1500,0.882
+held out,general extra,13,40,2854,1500,0.9833
+held out,general extra,14,29,2967,1500,0.8667
+held out,general extra,15,32,974,1500,0.9987
+held out,general extra,16,33,8923,1500,0.9427
+held out,general extra,17,30,1026,1500,0.994
+held out,general extra,18,22,1284,1500,0.948
+held out,general extra,19,34,2640,1500,0.918
+held out,general extra,20,34,7152,1500,0.9653
+held out,general extra,21,37,10685,1500,0.742
+held out,general extra,22,26,7030,1500,0.986
+held out,general extra,23,25,9054,1500,1.0
+held out,general extra,24,18,1267,816,0.5662
+held out,general extra,25,21,1030,1330,0.7962
+held out,general extra,26,30,6878,1500,0.9993
+held out,general extra,27,23,2807,1500,0.9647
+held out,general extra,28,26,2742,1500,0.7327
+held out,general extra,29,22,3891,1500,1.0
+held out,general extra,30,36,5077,1500,0.794
+held out,general extra,31,21,738,1330,0.9654
+held out,general extra,32,17,543,680,0.6132
+held out,general extra,33,31,835,1500,0.8067
+held out,general extra,34,20,4039,1140,0.5518
+held out,general extra,35,39,766,1500,0.9613
+held out,general extra,36,36,1938,1500,0.9133
+held out,general extra,37,26,4095,1500,0.7387
+held out,general extra,38,26,1572,1500,0.8247
+held out,general extra,39,30,3801,1500,0.97
+held out,general extra,40,18,1068,816,0.9792
+held out,general extra,41,27,3670,1500,0.8433
+held out,general extra,42,24,831,1500,0.62
+held out,general extra,43,30,5740,1500,0.8193
+held out,general extra,44,28,1342,1500,0.7067
+held out,general extra,45,30,9911,1500,1.0
+held out,general extra,46,36,11474,1500,0.6527
+held out,general extra,47,28,1059,1500,0.9953
+held out,general extra,48,18,2304,816,0.8407
+held out,general extra,49,28,888,1500,0.9027
+held out,general extra,50,28,2228,1500,0.6547
+held out,general extra,51,37,990,1500,0.6607
+held out,general extra,52,29,13091,1500,0.8413
+held out,general extra,53,30,5509,1500,0.974
+held out,general extra,54,28,995,1500,0.878
+held out,general extra,55,32,4012,1500,0.9907
+held out,general extra,56,35,3262,1500,0.9333
+held out,general extra,57,33,10375,1500,0.746
+held out,general extra,58,40,8631,1500,0.9413
+held out,general extra,59,17,1424,680,0.9559
+held out,general extra,60,29,11193,1500,0.732
+held out,general extra,61,27,1773,1500,0.7447
+held out,general extra,62,19,1154,969,0.9618
+held out,general extra,63,35,1330,1500,0.9233
+held out,general extra,64,36,1550,1500,0.9913
+held out,general extra,65,32,12361,1500,0.8753
+held out,general extra,66,29,9690,1500,0.816
+held out,general extra,67,23,12156,1500,0.7067
+held out,general extra,68,34,1156,1500,0.5427
+held out,general extra,69,29,3390,1500,0.8787
+held out,general extra,70,21,2231,1330,0.9932
+held out,general extra,71,27,1907,1500,0.9853
+held out,general extra,72,30,2759,1500,0.904
+held out,general extra,73,40,4657,1500,0.9347
+held out,general extra,74,20,1749,1140,0.9553
+held out,general extra,75,22,2676,1500,0.9067
+held out,general extra,76,18,4072,816,0.8578
+held out,general extra,77,38,1258,1500,0.674
+held out,general extra,78,17,10292,680,0.8971
+held out,general extra,79,36,1608,1500,0.8147
+held out,general extra,80,22,3910,1500,0.9413
+held out,general extra,81,18,4315,816,0.8909
+held out,general extra,82,17,1450,680,0.8191
+held out,general extra,83,37,5077,1500,0.7993
+held out,general extra,84,38,2221,1500,0.492
+held out,general extra,85,37,1043,1500,0.9707
+held out,general extra,86,34,2116,1500,0.8813
+held out,general extra,87,31,1888,1500,0.8207
+held out,general extra,88,38,4827,1500,0.9813
+held out,general extra,89,29,1282,1500,0.9227
+held out,general extra,90,18,1093,816,0.9926
+held out,general extra,91,23,4368,1500,0.992
+held out,general extra,92,17,2351,680,0.9265
+held out,general extra,93,39,5289,1500,0.7753
+held out,general extra,94,39,2778,1500,0.94
+held out,general extra,95,16,6515,560,0.9929
+held out,general extra,96,35,6244,1500,0.824
+held out,general extra,97,37,9762,1500,0.9993
+held out,general extra,98,22,1037,1500,0.9133
+held out,general extra,99,29,7740,1500,0.8013
+held out,large,0,115,644,1500,0.844
+held out,large,1,121,736,1500,0.9127
+held out,large,2,168,5681,1500,0.9013
+held out,large,3,106,923,1500,0.9613
+held out,large,4,199,745,1500,0.856
+held out,large,5,184,10744,1500,0.99
+held out,large,6,177,6731,1500,0.7867
+held out,large,7,104,469,1500,0.8187
+held out,large,8,119,8987,1500,0.8453
+held out,large,9,136,4314,1500,0.7133
+held out,large,10,197,4861,1500,0.92
+held out,large,11,110,694,1500,0.634
+held out,large,12,147,7142,1500,0.5813
+held out,large,13,148,4182,1500,0.7447
+held out,large,14,183,7105,1500,0.8327
+held out,large,15,112,1234,1500,0.86
+held out,large,16,148,1156,1500,0.968
+held out,large,17,144,1735,1500,0.936
+held out,large,18,126,3196,1500,0.7127
+held out,large,19,109,4153,1500,0.976
+held out,large,20,177,7628,1500,0.8327
+held out,large,21,111,605,1500,0.864
+held out,large,22,174,1138,1500,0.608
+held out,large,23,133,1970,1500,0.9307
+held out,large,24,133,5297,1500,0.9607
+held out,large,25,157,6979,1500,0.9113
+held out,large,26,163,5960,1500,0.9913
+held out,large,27,139,10916,1500,0.9907
+held out,large,28,123,3863,1500,0.7173
+held out,large,29,157,1927,1500,0.6567
+held out,large,30,174,998,1500,0.72
+held out,large,31,131,6531,1500,0.8187
+held out,large,32,198,8892,1500,0.7607
+held out,large,33,125,513,1500,0.6347
+held out,large,34,129,5889,1500,0.8127
+held out,large,35,136,5068,1500,0.9307
+held out,large,36,186,3040,1500,0.822
+held out,large,37,134,11003,1500,0.9907
+held out,large,38,149,6872,1500,0.6853
+held out,large,39,126,1631,1500,0.992
+held out,large,40,120,546,1500,0.8413
+held out,large,41,127,646,1500,0.5987
+held out,large,42,121,1775,1500,0.836
+held out,large,43,197,7252,1500,0.708
+held out,large,44,120,10042,1500,0.6553
+held out,large,45,163,1498,1500,0.924
+held out,large,46,152,9236,1500,0.994
+held out,large,47,160,347,1500,0.89
+held out,large,48,128,2129,1500,0.6793
+held out,large,49,147,1348,1500,0.65
+held out,large,50,139,1061,1500,0.7193
+held out,large,51,189,678,1500,0.8207
+held out,large,52,120,742,1500,0.9393
+held out,large,53,169,3519,1500,0.6247
+held out,large,54,152,9749,1500,0.6673
+held out,large,55,112,6709,1500,0.8813
+held out,large,56,185,626,1500,0.5093
+held out,large,57,110,8694,1500,0.9887
+held out,large,58,162,2140,1500,0.7293
+held out,large,59,164,589,1500,0.814
+held out,large,60,114,1333,1500,0.8167
+held out,large,61,161,989,1500,0.9087
+held out,large,62,144,940,1500,0.9133
+held out,large,63,199,931,1500,0.7553
+held out,large,64,126,2169,1500,0.91
+held out,large,65,133,438,1500,0.9687
+held out,large,66,118,9864,1500,0.678
+held out,large,67,108,819,1500,0.7707
+held out,large,68,114,5196,1500,0.9873
+held out,large,69,188,7289,1500,0.974
+held out,large,70,121,6307,1500,0.976
+held out,large,71,172,5848,1500,0.7587
+held out,large,72,187,5639,1500,0.9733
+held out,large,73,117,652,1500,0.818
+held out,large,74,123,9871,1500,0.9553
+held out,large,75,138,3618,1500,0.9253
+held out,large,76,105,1246,1500,0.6487
+held out,large,77,102,5597,1500,0.9413
+held out,large,78,196,6720,1500,0.992
+held out,large,79,177,1042,1500,0.8893
+held out,large,80,179,708,1500,0.836
+held out,large,81,109,3008,1500,0.796
+held out,large,82,106,4010,1500,0.9867
+held out,large,83,103,10184,1500,0.81
+held out,large,84,161,1384,1500,0.778
+held out,large,85,112,8844,1500,0.7993
+held out,large,86,140,1776,1500,0.9087
+held out,large,87,149,1507,1500,0.5973
+held out,large,88,106,8974,1500,0.974
+held out,large,89,198,1700,1500,0.5707
+held out,large,90,197,4254,1500,0.814
+held out,large,91,110,4546,1500,0.8633
+held out,large,92,170,5318,1500,0.9313
+held out,large,93,148,9061,1500,0.8247
+held out,large,94,117,11170,1500,0.674
+held out,large,95,157,3842,1500,0.686
+held out,large,96,161,1915,1500,0.6087
+held out,large,97,154,947,1500,0.9473
+held out,large,98,129,4284,1500,0.9047
+held out,large,99,180,6627,1500,0.896
+held out,wide,0,45,49,1500,0.4473
+held out,wide,1,78,24,1500,0.662
+held out,wide,2,54,68,1500,0.8753
+held out,wide,3,75,1334,1500,0.9453
+held out,wide,4,63,36,1500,0.4087
+held out,wide,5,27,141,1500,0.7587
+held out,wide,6,93,33,1500,0.6133
+held out,wide,7,77,389,1500,0.814
+held out,wide,8,66,1091,1500,0.688
+held out,wide,9,88,203,1500,0.6253
+held out,wide,10,44,107,1500,0.5427
+held out,wide,11,94,39,1500,0.5153
+held out,wide,12,49,1446,1500,0.88
+held out,wide,13,51,125,1500,0.5347
+held out,wide,14,23,704,1500,0.958
+held out,wide,15,37,1046,1500,0.872
+held out,wide,16,28,785,1500,0.8753
+held out,wide,17,63,32,1500,0.5027
+held out,wide,18,73,1257,1500,0.886
+held out,wide,19,37,244,1500,0.8667
+held out,wide,20,85,14,1500,0.3827
+held out,wide,21,94,28,1500,0.718
+held out,wide,22,48,111,1500,0.7813
+held out,wide,23,60,131,1500,0.5407
+held out,wide,24,94,45,1500,0.5647
+held out,wide,25,49,1379,1500,0.962
+held out,wide,26,65,77,1500,0.57
+held out,wide,27,89,280,1500,0.9207
+held out,wide,28,88,52,1500,0.5733
+held out,wide,29,70,1187,1500,0.6873
+held out,wide,30,82,337,1500,0.944
+held out,wide,31,28,1362,1500,0.7207
+held out,wide,32,94,25,1500,0.5267
+held out,wide,33,99,459,1500,0.5787
+held out,wide,34,28,775,1500,0.8167
+held out,wide,35,91,73,1500,0.9
+held out,wide,36,58,1197,1500,0.7267
+held out,wide,37,77,830,1500,0.8467
+held out,wide,38,90,26,1500,0.3393
+held out,wide,39,28,93,1500,0.546
+held out,wide,40,26,54,1500,0.7447
+held out,wide,41,87,72,1500,0.678
+held out,wide,42,48,882,1500,0.916
+held out,wide,43,87,56,1500,0.5193
+held out,wide,44,53,107,1500,0.6
+held out,wide,45,90,525,1500,0.6047
+held out,wide,46,58,72,1500,0.768
+held out,wide,47,90,581,1500,0.738
+held out,wide,48,49,1150,1500,0.9727
+held out,wide,49,79,82,1500,0.4733
+held out,wide,50,40,535,1500,0.8907
+held out,wide,51,27,92,1500,0.784
+held out,wide,52,22,209,1500,0.844
+held out,wide,53,71,85,1500,0.528
+held out,wide,54,74,606,1500,0.9693
+held out,wide,55,18,174,816,0.9926
+held out,wide,56,37,472,1500,0.6967
+held out,wide,57,62,24,1500,0.4407
+held out,wide,58,73,60,1500,0.6387
+held out,wide,59,78,142,1500,0.7813
+held out,wide,60,30,32,1500,0.8273
+held out,wide,61,80,28,1500,0.3347
+held out,wide,62,58,1015,1500,0.8353
+held out,wide,63,43,57,1500,0.8173
+held out,wide,64,76,132,1500,0.4213
+held out,wide,65,94,1065,1500,0.7393
+held out,wide,66,75,34,1500,0.582
+held out,wide,67,51,65,1500,0.49
+held out,wide,68,62,179,1500,0.884
+held out,wide,69,99,77,1500,0.638
+held out,wide,70,39,572,1500,0.95
+held out,wide,71,85,34,1500,0.7847
+held out,wide,72,100,45,1500,0.3853
+held out,wide,73,28,299,1500,0.8993
+held out,wide,74,20,1285,1140,0.9465
+held out,wide,75,96,172,1500,0.8887
+held out,wide,76,85,1072,1500,0.7313
+held out,wide,77,36,31,1500,0.4907
+held out,wide,78,69,24,1500,0.8847
+held out,wide,79,57,30,1500,0.5547
+held out,wide,80,21,1498,1330,0.9368
+held out,wide,81,85,36,1500,0.5553
+held out,wide,82,82,1131,1500,0.8933
+held out,wide,83,38,257,1500,0.8753
+held out,wide,84,53,728,1500,0.9613
+held out,wide,85,87,950,1500,0.9267
+held out,wide,86,56,1174,1500,0.8513
+held out,wide,87,53,150,1500,0.9173
+held out,wide,88,62,751,1500,0.6713
+held out,wide,89,97,93,1500,0.712
+held out,wide,90,56,63,1500,0.8013
+held out,wide,91,17,33,680,0.6632
+held out,wide,92,66,21,1500,0.4113
+held out,wide,93,98,34,1500,0.7613
+held out,wide,94,66,481,1500,0.6667
+held out,wide,95,61,924,1500,0.9533
+held out,wide,96,69,88,1500,0.5913
+held out,wide,97,22,66,1500,0.9193
+held out,wide,98,44,102,1500,0.6393
+held out,wide,99,65,46,1500,0.782
+train,R,0,62,119,1500,0.7747
+train,R,1,85,139,1500,0.6153
+train,R,2,53,600,1500,0.9747
+train,R,3,85,411,1500,0.8753
+train,R,4,85,554,1500,0.7667
+train,R,5,38,491,1500,0.7493
+train,R,6,55,4068,1500,0.9973
+train,R,7,73,329,1500,0.5953
+train,R,8,87,512,1500,0.9827
+train,R,9,63,1100,1500,0.762
+train,R,10,56,1887,1500,0.8993
+train,R,11,93,2484,1500,0.7913
+train,R,12,75,4734,1500,0.9807
+train,R,13,74,1278,1500,0.6967
+train,R,14,49,2764,1500,0.8427
+train,R,15,80,2848,1500,0.766
+train,R,16,24,72,1500,0.5847
+train,R,17,29,3636,1500,0.814
+train,R,18,49,1961,1500,0.6993
+train,R,19,70,11411,1500,0.9173
+train,R,20,69,11418,1500,0.9953
+train,R,21,27,5490,1500,0.9947
+train,R,22,49,320,1500,0.888
+train,R,23,27,189,1500,0.57
+train,R,24,95,383,1500,0.5113
+train,R,25,100,273,1500,0.8907
+train,R,26,99,7905,1500,0.9013
+train,R,27,85,130,1500,0.5427
+train,R,28,92,119,1500,0.6093
+train,R,29,28,75,1500,0.7667
+train,R,30,44,612,1500,0.9367
+train,R,31,27,130,1500,0.572
+train,R,32,79,517,1500,0.9087
+train,R,33,42,410,1500,0.7993
+train,R,34,100,8548,1500,0.9687
+train,R,35,21,1279,1330,0.8504
+train,R,36,68,8035,1500,0.8973
+train,R,37,48,489,1500,0.8133
+train,R,38,24,11225,1500,0.9527
+train,R,39,96,4590,1500,0.9793
+train,R,40,98,8660,1500,0.974
+train,R,41,60,108,1500,0.7953
+train,R,42,75,8445,1500,0.9933
+train,R,43,89,6750,1500,0.9333
+train,R,44,62,1688,1500,0.7587
+train,R,45,42,955,1500,0.7393
+train,R,46,78,99,1500,0.788
+train,R,47,68,4451,1500,0.9793
+train,R,48,35,208,1500,0.832
+train,R,49,58,1456,1500,0.8807
+train,R,50,43,1728,1500,0.954
+train,R,51,52,446,1500,0.9413
+train,R,52,94,98,1500,0.9053
+train,R,53,46,2356,1500,0.962
+train,R,54,93,271,1500,0.8073
+train,R,55,33,241,1500,0.7653
+train,R,56,90,3691,1500,0.8267
+train,R,57,31,955,1500,0.7827
+train,R,58,37,742,1500,0.906
+train,R,59,51,162,1500,0.9507
+train,R,60,58,1387,1500,0.8753
+train,R,61,87,520,1500,0.9547
+train,R,62,72,2713,1500,0.9673
+train,R,63,59,9843,1500,0.9933
+train,R,64,73,236,1500,0.626
+train,R,65,52,323,1500,0.886
+train,R,66,40,7601,1500,0.9713
+train,R,67,41,90,1500,0.7347
+train,R,68,57,2310,1500,0.9393
+train,R,69,52,2315,1500,0.8667
+train,R,70,35,2024,1500,0.9653
+train,R,71,39,6133,1500,0.972
+train,R,72,44,218,1500,0.95
+train,R,73,82,182,1500,0.904
+train,R,74,60,1427,1500,0.8453
+train,R,75,22,2150,1500,0.9953
+train,R,76,20,100,1140,0.8711
+train,R,77,37,536,1500,0.9207
+train,R,78,20,154,1140,0.8386
+train,R,79,55,447,1500,0.824
+train,R,80,24,2855,1500,0.938
+train,R,81,23,7701,1500,0.848
+train,R,82,61,754,1500,0.874
+train,R,83,90,4372,1500,0.9373
+train,R,84,94,331,1500,0.83
+train,R,85,55,439,1500,0.928
+train,R,86,80,531,1500,0.794
+train,R,87,91,11759,1500,0.856
+train,R,88,90,4518,1500,0.992
+train,R,89,65,287,1500,0.716
+train,R,90,35,3103,1500,0.6307
+train,R,91,42,207,1500,0.8127
+train,R,92,82,551,1500,0.9
+train,R,93,39,8387,1500,0.8727
+train,R,94,96,667,1500,0.7367
+train,R,95,45,2000,1500,0.9053
+train,R,96,26,278,1500,0.764
+train,R,97,93,650,1500,0.8327
+train,R,98,87,1734,1500,0.988
+train,R,99,96,1350,1500,0.698
+train,few,0,30,1243,1500,0.6833
+train,few,1,68,3343,1500,0.942
+train,few,2,98,902,1500,0.6067
+train,few,3,45,954,1500,0.9553
+train,few,4,31,582,1500,0.9913
+train,few,5,24,180,1500,0.8873
+train,few,6,49,868,1500,0.79
+train,few,7,38,313,1500,0.6193
+train,few,8,61,577,1500,0.8187
+train,few,9,95,3648,1500,0.5533
+train,few,10,40,273,1500,0.5113
+train,few,11,62,1976,1500,0.89
+train,few,12,99,4220,1500,0.9833
+train,few,13,21,141,1330,0.7639
+train,few,14,30,750,1500,0.9887
+train,few,15,63,1167,1500,0.9
+train,few,16,62,1022,1500,0.7107
+train,few,17,38,668,1500,0.8347
+train,few,18,65,296,1500,0.9353
+train,few,19,51,260,1500,0.65
+train,few,20,34,368,1500,0.664
+train,few,21,74,960,1500,0.9627
+train,few,22,77,963,1500,0.902
+train,few,23,92,2456,1500,0.922
+train,few,24,73,516,1500,0.8607
+train,few,25,78,2822,1500,0.98
+train,few,26,61,2516,1500,0.9767
+train,few,27,62,688,1500,0.8793
+train,few,28,20,398,1140,0.8114
+train,few,29,58,810,1500,0.7227
+train,few,30,72,3504,1500,0.9467
+train,few,31,50,460,1500,0.7227
+train,few,32,78,628,1500,0.7053
+train,few,33,43,824,1500,0.8813
+train,few,34,24,168,1500,0.9587
+train,few,35,22,301,1500,0.6713
+train,few,36,79,3892,1500,0.986
+train,few,37,40,540,1500,0.9273
+train,few,38,67,2039,1500,0.4573
+train,few,39,100,660,1500,0.6747
+train,few,40,44,504,1500,0.6707
+train,few,41,30,317,1500,0.7553
+train,few,42,70,744,1500,0.9387
+train,few,43,41,362,1500,0.8687
+train,few,44,32,160,1500,0.644
+train,few,45,39,431,1500,0.954
+train,few,46,73,734,1500,0.8073
+train,few,47,25,270,1500,0.9687
+train,few,48,47,282,1500,0.586
+train,few,49,81,325,1500,0.706
+train,few,50,52,1697,1500,0.8213
+train,few,51,32,333,1500,0.8673
+train,few,52,67,1285,1500,0.9687
+train,few,53,53,1325,1500,0.8633
+train,few,54,91,1581,1500,0.9967
+train,few,55,92,2114,1500,0.9907
+train,few,56,93,1918,1500,0.966
+train,few,57,99,1700,1500,0.9733
+train,few,58,75,1228,1500,0.7567
+train,few,59,30,178,1500,0.8647
+train,few,60,67,454,1500,0.682
+train,few,61,73,897,1500,0.9773
+train,few,62,98,785,1500,0.73
+train,few,63,68,863,1500,0.8813
+train,few,64,61,2575,1500,0.926
+train,few,65,35,307,1500,0.9307
+train,few,66,73,2330,1500,0.916
+train,few,67,21,409,1330,0.9684
+train,few,68,65,1781,1500,0.7213
+train,few,69,69,406,1500,0.674
+train,few,70,83,463,1500,0.844
+train,few,71,90,1157,1500,0.9287
+train,few,72,92,2603,1500,0.98
+train,few,73,78,2498,1500,0.9
+train,few,74,91,628,1500,0.6473
+train,few,75,65,803,1500,0.7333
+train,few,76,97,779,1500,0.958
+train,few,77,59,930,1500,0.916
+train,few,78,24,422,1500,0.994
+train,few,79,66,933,1500,0.61
+train,few,80,20,96,1140,0.9263
+train,few,81,40,196,1500,0.766
+train,few,82,53,1867,1500,0.574
+train,few,83,80,480,1500,0.9273
+train,few,84,95,4308,1500,0.8947
+train,few,85,34,609,1500,0.864
+train,few,86,98,1732,1500,0.916
+train,few,87,30,930,1500,0.9913
+train,few,88,47,516,1500,0.9107
+train,few,89,54,305,1500,0.9527
+train,few,90,35,126,1500,0.6153
+train,few,91,89,529,1500,0.92
+train,few,92,84,466,1500,0.542
+train,few,93,92,825,1500,0.722
+train,few,94,59,667,1500,0.9753
+train,few,95,34,463,1500,0.882
+train,few,96,76,641,1500,0.794
+train,few,97,79,1468,1500,0.7547
+train,few,98,86,1286,1500,0.896
+train,few,99,30,331,1500,0.96
+train,general,0,27,2267,1500,0.998
+train,general,1,28,9558,1500,0.9753
+train,general,2,21,5119,1330,0.9955
+train,general,3,35,2596,1500,0.974
+train,general,4,24,5777,1500,0.5693
+train,general,5,28,6920,1500,0.7813
+train,general,6,32,1179,1500,0.9607
+train,general,7,35,945,1500,0.8433
+train,general,8,17,1648,680,0.8368
+train,general,9,17,13909,680,1.0
+train,general,10,33,9433,1500,0.93
+train,general,11,21,1839,1330,0.9985
+train,general,12,28,1309,1500,0.9953
+train,general,13,32,1092,1500,0.9233
+train,general,14,25,4650,1500,0.884
+train,general,15,39,2571,1500,0.8807
+train,general,16,33,2116,1500,0.914
+train,general,17,25,2216,1500,0.92
+train,general,18,16,7472,560,0.9857
+train,general,19,38,5105,1500,1.0
+train,general,20,21,3946,1330,0.9353
+train,general,21,23,6794,1500,0.984
+train,general,22,35,1248,1500,0.4427
+train,general,23,17,6628,680,0.825
+train,general,24,32,6788,1500,0.664
+train,general,25,38,3052,1500,0.9653
+train,general,26,19,6799,969,0.8524
+train,general,27,34,2381,1500,0.616
+train,general,28,29,555,1500,0.7827
+train,general,29,36,6733,1500,0.9973
+train,general,30,31,3593,1500,0.558
+train,general,31,35,4147,1500,0.874
+train,general,32,37,2910,1500,0.9853
+train,general,33,28,3697,1500,0.7887
+train,general,34,39,2348,1500,0.8647
+train,general,35,38,3871,1500,0.8513
+train,general,36,21,9186,1330,0.9902
+train,general,37,37,5705,1500,0.884
+train,general,38,16,3946,560,0.8607
+train,general,39,30,2904,1500,0.7187
+train,general,40,26,1731,1500,0.9033
+train,general,41,36,1374,1500,0.6587
+train,general,42,29,1491,1500,0.8567
+train,general,43,19,6353,969,0.8545
+train,general,44,24,3286,1500,0.65
+train,general,45,28,1166,1500,0.9453
+train,general,46,23,3911,1500,0.9593
+train,general,47,32,1686,1500,0.9187
+train,general,48,17,6881,680,0.9221
+train,general,49,36,2948,1500,0.9587
+train,general,50,30,2112,1500,0.686
+train,general,51,29,8610,1500,0.9213
+train,general,52,19,6191,969,0.9897
+train,general,53,31,11064,1500,0.994
+train,general,54,28,7623,1500,0.898
+train,general,55,18,2167,816,0.549
+train,general,56,23,6007,1500,0.8733
+train,general,57,40,4073,1500,0.7467
+train,general,58,16,2135,560,0.9339
+train,general,59,19,4467,969,1.0
+train,general,60,25,10529,1500,0.72
+train,general,61,22,1383,1500,0.9807
+train,general,62,38,11631,1500,0.9073
+train,general,63,28,1300,1500,0.9073
+train,general,64,25,2726,1500,0.9953
+train,general,65,30,6494,1500,0.852
+train,general,66,28,1394,1500,0.9613
+train,general,67,30,2728,1500,0.86
+train,general,68,26,5766,1500,0.9567
+train,general,69,18,1883,816,0.935
+train,general,70,22,3404,1500,0.8413
+train,general,71,20,1728,1140,0.6833
+train,general,72,19,1207,969,0.8473
+train,general,73,37,5261,1500,0.9607
+train,general,74,21,6858,1330,0.9992
+train,general,75,19,4956,969,0.7957
+train,general,76,30,4372,1500,0.986
+train,general,77,22,1440,1500,0.92
+train,general,78,21,5981,1330,0.9872
+train,general,79,38,6642,1500,0.9873
+train,general,80,26,2485,1500,0.8567
+train,general,81,25,787,1500,0.6713
+train,general,82,29,1822,1500,0.9727
+train,general,83,21,7849,1330,0.9286
+train,general,84,30,10683,1500,1.0
+train,general,85,17,10943,680,0.7676
+train,general,86,23,9597,1500,0.9213
+train,general,87,36,9344,1500,0.8993
+train,general,88,29,4563,1500,0.952
+train,general,89,20,9540,1140,0.8851
+train,general,90,24,2574,1500,0.8573
+train,general,91,40,5234,1500,0.9047
+train,general,92,32,6887,1500,0.9847
+train,general,93,26,1990,1500,0.8567
+train,general,94,21,1584,1330,0.9662
+train,general,95,16,8319,560,0.9911
+train,general,96,30,888,1500,0.6387
+train,general,97,35,1637,1500,0.592
+train,general,98,24,1088,1500,0.888
+train,general,99,27,8449,1500,0.874
+train,general extra,0,40,1301,1500,0.9847
+train,general extra,1,17,10443,680,1.0
+train,general extra,2,20,5082,1140,0.9781
+train,general extra,3,16,1062,560,1.0
+train,general extra,4,19,3210,969,0.9763
+train,general extra,5,30,1788,1500,0.686
+train,general extra,6,22,12660,1500,0.8827
+train,general extra,7,17,822,680,0.7897
+train,general extra,8,17,4041,680,0.7559
+train,general extra,9,16,12080,560,0.9875
+train,general extra,10,39,3039,1500,0.9847
+train,general extra,11,27,6366,1500,0.9287
+train,general extra,12,37,13193,1500,0.786
+train,general extra,13,25,7706,1500,0.7813
+train,general extra,14,29,1119,1500,0.942
+train,general extra,15,23,983,1500,0.5167
+train,general extra,16,22,7397,1500,0.876
+train,general extra,17,32,925,1500,0.9827
+train,general extra,18,17,8991,680,0.9926
+train,general extra,19,27,1840,1500,0.8827
+train,general extra,20,23,5104,1500,0.9767
+train,general extra,21,36,14358,1500,0.9613
+train,general extra,22,17,1534,680,0.9588
+train,general extra,23,16,1857,560,0.8911
+train,general extra,24,37,7320,1500,0.9653
+train,general extra,25,38,5310,1500,0.8833
+train,general extra,26,23,2224,1500,0.998
+train,general extra,27,21,2127,1330,0.8135
+train,general extra,28,22,8076,1500,0.9747
+train,general extra,29,17,2161,680,0.5559
+train,general extra,30,31,7043,1500,0.7227
+train,general extra,31,23,14855,1500,0.9973
+train,general extra,32,16,3758,560,0.9161
+train,general extra,33,33,9283,1500,0.8933
+train,general extra,34,25,2775,1500,0.8647
+train,general extra,35,34,8005,1500,0.5693
+train,general extra,36,25,11008,1500,0.9827
+train,general extra,37,21,1781,1330,0.8992
+train,general extra,38,36,12541,1500,0.7613
+train,general extra,39,35,4670,1500,0.9033
+train,general extra,40,34,6476,1500,0.978
+train,general extra,41,36,3467,1500,0.9487
+train,general extra,42,38,4358,1500,0.8827
+train,general extra,43,20,10801,1140,0.9974
+train,general extra,44,35,1102,1500,0.894
+train,general extra,45,25,1995,1500,0.668
+train,general extra,46,21,665,1330,0.8323
+train,general extra,47,32,4775,1500,0.8353
+train,general extra,48,26,1555,1500,0.918
+train,general extra,49,21,10990,1330,0.6925
+train,general extra,50,33,635,1500,0.7753
+train,general extra,51,24,9003,1500,0.7327
+train,general extra,52,17,3761,680,0.8897
+train,general extra,53,29,1293,1500,0.924
+train,general extra,54,28,11268,1500,0.9533
+train,general extra,55,30,5405,1500,0.8887
+train,general extra,56,31,5703,1500,1.0
+train,general extra,57,28,1419,1500,0.7753
+train,general extra,58,16,991,560,0.9893
+train,general extra,59,20,13147,1140,0.9675
+train,general extra,60,29,2029,1500,0.7967
+train,general extra,61,35,1370,1500,0.8027
+train,general extra,62,31,3227,1500,0.994
+train,general extra,63,40,978,1500,0.8393
+train,general extra,64,16,4367,560,0.9375
+train,general extra,65,25,4843,1500,0.9773
+train,general extra,66,22,1744,1500,1.0
+train,general extra,67,16,3271,560,0.6661
+train,general extra,68,32,10241,1500,0.8173
+train,general extra,69,31,2246,1500,0.878
+train,general extra,70,27,3511,1500,0.6833
+train,general extra,71,27,1459,1500,0.954
+train,general extra,72,29,1059,1500,0.9147
+train,general extra,73,26,7897,1500,0.9947
+train,general extra,74,21,2996,1330,0.8925
+train,general extra,75,34,3588,1500,0.9933
+train,general extra,76,40,2882,1500,0.9567
+train,general extra,77,19,1226,969,0.9659
+train,general extra,78,22,1602,1500,0.8007
+train,general extra,79,21,1497,1330,0.9925
+train,general extra,80,20,1886,1140,0.6412
+train,general extra,81,33,5414,1500,0.682
+train,general extra,82,26,1494,1500,0.7287
+train,general extra,83,16,7842,560,0.9393
+train,general extra,84,27,5913,1500,0.926
+train,general extra,85,35,4775,1500,0.9373
+train,general extra,86,20,1140,1140,0.9526
+train,general extra,87,29,2683,1500,0.804
+train,general extra,88,36,9257,1500,0.5927
+train,general extra,89,31,1513,1500,0.656
+train,general extra,90,29,1538,1500,0.8613
+train,general extra,91,17,2533,680,0.7853
+train,general extra,92,20,2371,1140,0.9237
+train,general extra,93,30,8605,1500,0.9887
+train,general extra,94,18,11242,816,0.7377
+train,general extra,95,36,719,1500,0.6667
+train,general extra,96,16,1159,560,0.6964
+train,general extra,97,38,8608,1500,0.8133
+train,general extra,98,25,1905,1500,0.698
+train,general extra,99,38,2531,1500,0.9347
+train,large,0,107,7051,1500,0.5947
+train,large,1,137,5761,1500,0.9967
+train,large,2,157,1767,1500,0.958
+train,large,3,168,1569,1500,0.5613
+train,large,4,127,1000,1500,0.5847
+train,large,5,140,1181,1500,0.978
+train,large,6,169,9172,1500,0.7953
+train,large,7,164,667,1500,0.6313
+train,large,8,174,802,1500,0.686
+train,large,9,148,8204,1500,0.9867
+train,large,10,124,14124,1500,0.7173
+train,large,11,158,2448,1500,0.9647
+train,large,12,138,1017,1500,0.5813
+train,large,13,146,689,1500,0.9487
+train,large,14,196,6505,1500,0.946
+train,large,15,164,4816,1500,0.652
+train,large,16,199,5419,1500,0.6807
+train,large,17,140,3161,1500,0.9973
+train,large,18,117,873,1500,0.76
+train,large,19,122,347,1500,0.7287
+train,large,20,107,11242,1500,1.0
+train,large,21,172,1618,1500,0.798
+train,large,22,135,1431,1500,0.9787
+train,large,23,190,3565,1500,0.658
+train,large,24,182,8114,1500,0.9807
+train,large,25,116,8805,1500,0.9947
+train,large,26,195,4360,1500,0.6833
+train,large,27,179,10974,1500,0.9913
+train,large,28,112,2985,1500,0.9987
+train,large,29,117,1587,1500,0.6853
+train,large,30,180,636,1500,0.778
+train,large,31,172,1028,1500,0.6907
+train,large,32,137,9486,1500,0.9093
+train,large,33,121,837,1500,0.9507
+train,large,34,113,12316,1500,0.8367
+train,large,35,114,6579,1500,0.994
+train,large,36,155,4075,1500,0.8687
+train,large,37,163,2697,1500,0.8513
+train,large,38,168,13216,1500,0.9247
+train,large,39,182,6286,1500,0.776
+train,large,40,163,9252,1500,0.9833
+train,large,41,130,7777,1500,0.768
+train,large,42,131,9168,1500,0.934
+train,large,43,132,446,1500,0.8853
+train,large,44,191,11246,1500,0.7913
+train,large,45,106,302,1500,0.7553
+train,large,46,159,1381,1500,0.548
+train,large,47,148,1244,1500,0.988
+train,large,48,186,9170,1500,0.922
+train,large,49,105,711,1500,0.984
+train,large,50,110,712,1500,0.6113
+train,large,51,129,9077,1500,0.948
+train,large,52,136,467,1500,0.7553
+train,large,53,167,640,1500,0.8773
+train,large,54,135,602,1500,0.7567
+train,large,55,168,1930,1500,0.8587
+train,large,56,164,2004,1500,0.8287
+train,large,57,198,587,1500,0.69
+train,large,58,172,4083,1500,0.8053
+train,large,59,133,14922,1500,0.984
+train,large,60,163,2107,1500,0.9833
+train,large,61,200,714,1500,0.926
+train,large,62,106,1031,1500,0.9433
+train,large,63,123,1060,1500,0.874
+train,large,64,175,3897,1500,0.848
+train,large,65,152,3530,1500,0.9667
+train,large,66,145,1901,1500,0.9387
+train,large,67,109,274,1500,0.7233
+train,large,68,198,578,1500,0.6773
+train,large,69,121,1927,1500,0.9353
+train,large,70,154,1819,1500,0.9173
+train,large,71,194,6884,1500,0.714
+train,large,72,153,835,1500,0.76
+train,large,73,176,9939,1500,0.988
+train,large,74,183,12735,1500,0.804
+train,large,75,188,734,1500,0.6707
+train,large,76,112,541,1500,0.9
+train,large,77,166,5769,1500,0.742
+train,large,78,192,10372,1500,0.9973
+train,large,79,172,666,1500,0.918
+train,large,80,157,6649,1500,0.992
+train,large,81,140,2136,1500,0.9033
+train,large,82,123,6460,1500,0.664
+train,large,83,200,3290,1500,0.8007
+train,large,84,102,2281,1500,0.8027
+train,large,85,148,6742,1500,0.934
+train,large,86,158,2355,1500,0.9287
+train,large,87,141,2058,1500,0.9653
+train,large,88,139,1383,1500,0.522
+train,large,89,161,789,1500,0.92
+train,large,90,162,3880,1500,0.698
+train,large,91,177,3002,1500,0.898
+train,large,92,132,8217,1500,0.9967
+train,large,93,198,2943,1500,0.9753
+train,large,94,154,7169,1500,0.9533
+train,large,95,176,8464,1500,0.856
+train,large,96,152,13069,1500,0.9667
+train,large,97,140,382,1500,0.8467
+train,large,98,166,4662,1500,0.9247
+train,large,99,122,932,1500,0.5227
+train,wide,0,72,36,1500,0.52
+train,wide,1,38,28,1500,0.644
+train,wide,2,73,782,1500,0.9213
+train,wide,3,29,50,1500,0.69
+train,wide,4,43,21,1500,0.6307
+train,wide,5,96,30,1500,0.6187
+train,wide,6,22,207,1500,0.6773
+train,wide,7,95,316,1500,0.612
+train,wide,8,99,204,1500,0.844
+train,wide,9,100,1044,1500,0.91
+train,wide,10,92,148,1500,0.594
+train,wide,11,89,22,1500,0.3933
+train,wide,12,70,177,1500,0.6527
+train,wide,13,48,132,1500,0.7833
+train,wide,14,89,313,1500,0.7867
+train,wide,15,73,133,1500,0.786
+train,wide,16,48,32,1500,0.6933
+train,wide,17,32,566,1500,0.9587
+train,wide,18,91,309,1500,0.6647
+train,wide,19,99,62,1500,0.4073
+train,wide,20,93,38,1500,0.5367
+train,wide,21,56,41,1500,0.5287
+train,wide,22,61,96,1500,0.6087
+train,wide,23,96,40,1500,0.7013
+train,wide,24,71,91,1500,0.922
+train,wide,25,38,310,1500,0.964
+train,wide,26,31,24,1500,0.934
+train,wide,27,65,37,1500,0.6873
+train,wide,28,56,73,1500,0.7747
+train,wide,29,17,1139,680,0.8353
+train,wide,30,93,1287,1500,0.7113
+train,wide,31,38,23,1500,0.396
+train,wide,32,64,101,1500,0.5733
+train,wide,33,81,22,1500,0.5347
+train,wide,34,44,1086,1500,0.8953
+train,wide,35,74,82,1500,0.7607
+train,wide,36,38,23,1500,0.678
+train,wide,37,94,423,1500,0.9607
+train,wide,38,40,180,1500,0.784
+train,wide,39,28,163,1500,0.8333
+train,wide,40,81,144,1500,0.5447
+train,wide,41,62,675,1500,0.8187
+train,wide,42,100,289,1500,0.6893
+train,wide,43,66,390,1500,0.876
+train,wide,44,66,419,1500,0.656
+train,wide,45,48,27,1500,0.7687
+train,wide,46,61,36,1500,0.502
+train,wide,47,70,20,1500,0.5333
+train,wide,48,21,315,1330,0.9541
+train,wide,49,100,20,1500,0.7827
+train,wide,50,35,415,1500,0.6847
+train,wide,51,71,28,1500,0.5047
+train,wide,52,35,1084,1500,0.8253
+train,wide,53,68,61,1500,0.5367
+train,wide,54,53,1323,1500,0.9687
+train,wide,55,17,307,680,0.7574
+train,wide,56,61,97,1500,0.5433
+train,wide,57,43,1160,1500,0.9467
+train,wide,58,41,60,1500,0.5273
+train,wide,59,21,420,1330,0.6083
+train,wide,60,66,62,1500,0.944
+train,wide,61,100,284,1500,0.9527
+train,wide,62,46,71,1500,0.6207
+train,wide,63,36,456,1500,0.4947
+train,wide,64,29,186,1500,0.4207
+train,wide,65,27,29,1500,0.6547
+train,wide,66,87,30,1500,0.3807
+train,wide,67,87,42,1500,0.3813
+train,wide,68,97,50,1500,0.6133
+train,wide,69,79,135,1500,0.604
+train,wide,70,63,69,1500,0.8167
+train,wide,71,26,867,1500,0.7373
+train,wide,72,53,21,1500,0.5113
+train,wide,73,77,178,1500,0.9533
+train,wide,74,60,32,1500,0.4387
+train,wide,75,49,77,1500,0.6647
+train,wide,76,97,32,1500,0.674
+train,wide,77,28,39,1500,0.558
+train,wide,78,47,89,1500,0.9413
+train,wide,79,19,111,969,0.6584
+train,wide,80,27,108,1500,0.782
+train,wide,81,53,1469,1500,0.9093
+train,wide,82,69,1011,1500,0.86
+train,wide,83,71,20,1500,0.5607
+train,wide,84,52,624,1500,0.7627
+train,wide,85,91,94,1500,0.59
+train,wide,86,38,39,1500,0.6647
+train,wide,87,92,189,1500,0.5047
+train,wide,88,38,208,1500,0.4533
+train,wide,89,61,54,1500,0.7933
+train,wide,90,49,895,1500,0.982
+train,wide,91,50,119,1500,0.8613
+train,wide,92,62,39,1500,0.5473
+train,wide,93,42,33,1500,0.7373
+train,wide,94,41,823,1500,0.9407
+train,wide,95,32,22,1500,0.522
+train,wide,96,37,118,1500,0.75
+train,wide,97,47,372,1500,0.9433
+train,wide,98,65,38,1500,0.714
+train,wide,99,29,308,1500,0.96
