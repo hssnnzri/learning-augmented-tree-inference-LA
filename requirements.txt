@@ -1,0 +1,9 @@
+ete3==3.1.3
+legacy-cgi==2.6.4; python_version >= "3.13"
+matplotlib==3.11.2
+numpy==2.2.6
+pandas==2.3.2
+PyQt5==5.15.11
+scipy==1.18.1
+scistree2 @ git+https://github.com/yufengwudcs/ScisTree2.git@a11dd47149e14ae585a20d0f19aad323605efa26
+xgboost==3.0.5
