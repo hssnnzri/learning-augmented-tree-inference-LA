@@ -4,8 +4,7 @@ Learning-augmented tree inference (LA) for single-cell mutation data: a learned 
 triplet of cells, which cell split away first; LA builds the tree from those answers and places the mutations on it.
 The repository contains the current pipeline, trained models, simulated clean ISA test data, and final results.
 The original 23-cell data is hosted separately; download it as described below before retraining or running tests
-that use it. Historical experiments remain in the local research archive and are not included here.
-
+that use it.
 ## Data source and attribution
 
 The calibration matrix, comprising data from 23 sublines, was obtained from a previously published study:
@@ -71,7 +70,6 @@ dataset is generated first, so the answer to every triplet is known.
 | `fig_runtime_oracle.py` | paper figure: run time, and oracle accuracy on training vs held-out data |
 | `fig_mixed_sets.py` | Robinson-Foulds accuracy by cells and by mutations per cell, one row per test set |
 | `PhISCS/exact_ml_tree.py` | exact maximum-likelihood tree: the PhISCS integer program (no losses) solved with HiGHS |
-| `verify.py` | checks against the local archived experiments; requires the separately retained archive |
 | `fetch_cells23.py` | downloads or copies the separately hosted 23-cell matrices and verifies their checksums |
 | `data/` | the 24-subline matrices, simulator settings, download manifest, and `clean_isa/`; downloaded 23-cell matrices are ignored by Git |
 | `requirements.txt` | Python packages |
@@ -108,7 +106,6 @@ python noisy_oracle.py               # 95% synthetic oracle on the clean ISA tes
 python train_accuracy.py              # oracle accuracy on training vs held-out data
 python figures_clean_isa.py; python fig_runtime_oracle.py; python fig_mixed_sets.py
 python PhISCS/exact_ml_tree.py --input data/sublines24_input.tsv --best data/sublines24_reference.tsv --fp 0.0001 --fn 0.075 --mip-rel-gap 0
-python verify.py                      # local historical checks only (needs ../archive; not shipped)
 python train.py combined              # only to rebuild a model (about 35 minutes)
 ```
 
