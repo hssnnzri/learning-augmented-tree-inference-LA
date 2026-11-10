@@ -22,7 +22,7 @@ Tested with Python 3.13 on macOS.
 python code/run.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --reference data/sublines24_reference.tsv
 ```
 
-This takes about a second (24 sublines, 1,689 mutations) and prints:
+It prints:
 
 ```
 24 cells x 1689 mutations, 0.1% missing, oracle combined
@@ -34,6 +34,14 @@ wrote .../results/sublines24_input_combined.corrected.tsv, .nwk, .summary.json
 
 FP and FN are the entries corrected from 1 to 0 and from 0 to 1. `22/22 reference clades` means LA recovered all 22
 clades of the reference tree. ScisTree2 is shown for comparison.
+
+The 24-subline reference (`data/sublines24_reference.tsv`) is the proven maximum-likelihood tree from PhISCS. The
+PhISCS code is in `PhISCS/`, and its saved output (tree, corrected matrix, clade list) is in
+`results/sublines24_phiscs.*`. To recompute it:
+
+```bash
+python PhISCS/exact_ml_tree.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --mip-rel-gap 0 --out results/sublines24_phiscs
+```
 
 ## Input
 

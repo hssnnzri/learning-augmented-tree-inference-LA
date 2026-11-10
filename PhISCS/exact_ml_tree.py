@@ -15,7 +15,7 @@ HiGHS's absolute gap tolerance, 1e-6). The best value found, the proven upper bo
 Input: cells x mutations TSV (first column = cell names), entries 0 / 1 / 3 (3 = missing).
 Writes <out>.corrected.tsv (optimal genotypes), <out>.nwk and <out>.clades.txt when --out is given.
 
-Run (from the pipeline folder):
+Run (from the repository's main folder):
   python PhISCS/exact_ml_tree.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --mip-rel-gap 0
       --best data/sublines24_reference.tsv --out results/sublines24_phiscs   [--time-limit 3600]
 """
