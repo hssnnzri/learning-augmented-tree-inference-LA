@@ -19,7 +19,7 @@ from pathlib import Path
 import numpy as np
 import xgboost as xgb
 
-MODELS = Path(__file__).resolve().parent / "models"
+MODELS = Path(__file__).resolve().parent.parent / "models"
 ORACLES = {"combined": MODELS / "combined.ubj", "strict": MODELS / "strict.ubj"}
 BINS = np.array([0.1, 0.3, 0.5, 0.7, 0.9]); NB = len(BINS) + 1
 PERMS = list(itertools.permutations(range(3)))

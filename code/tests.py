@@ -277,7 +277,7 @@ def parallel_control(version, n, m, level, s):
 
 # ---------------------------------------------------------------- old paper
 
-PAPER = Path(__file__).resolve().parent / "data" / "clean_isa"            # copied from the archive's part2/large-data
+PAPER = Path(__file__).resolve().parent.parent / "data" / "clean_isa"            # copied from the archive's part2/large-data
 PAPER_CELLS, PAPER_MUTATIONS = (20, 30, 50, 100), (20, 30, 50, 100, 250, 500, 1000)
 PAPER_FP, PAPER_FN, PAPER_TREES = (0.0001, 0.001, 0.01), (0.05, 0.1, 0.15, 0.2), 10
 _CODES = []

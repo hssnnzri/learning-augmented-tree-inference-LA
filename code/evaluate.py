@@ -13,7 +13,7 @@ Writes results/<test>.csv; finished datasets are appended to results/<test>_part
 
 --min-cells / --max-cells / --factors run part of a test set; results/<test>.csv always holds every dataset finished so far.
 
-Run: python evaluate.py real|general|recoverable|realistic|loss-grid|factor-grid|parallel-control|old-paper [--oracles combined strict]
+Run: python code/evaluate.py real|general|recoverable|realistic|loss-grid|factor-grid|parallel-control|old-paper [--oracles combined strict]
      [--workers 6] [--limit N] [--min-cells N] [--max-cells N] [--factors deletions doublets ...]
 """
 import argparse
@@ -29,7 +29,7 @@ from simulate import genome_layout
 from tests import FACTORS, GENERATORS, cells_of, jobs, score
 from trees import matrix_clades, triplet_answers
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent                      # repository root
 RESULTS = HERE / "results"
 REAL = {"sublines24": ("sublines24_input.tsv", "sublines24_reference.tsv", 0.0001, 0.075),
         "cells23": ("cells23_input.tsv", "cells23_reference.tsv", 0.001, 0.15)}

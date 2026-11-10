@@ -4,7 +4,7 @@ recoverable and realistic sets pooled (mixed_sets_pooled.*), the general set alo
 test set in its own row, with the same bins in every row (all_test_sets.*).
 Reads results/<set>.csv; writes results/figures/<name>.png / .pdf.
 
-Run: python fig_mixed_sets.py
+Run: python code/fig_mixed_sets.py
 """
 import matplotlib.pyplot as plt
 import pandas as pd

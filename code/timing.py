@@ -7,7 +7,7 @@ Seconds as tests.score records them: LA = oracle inputs and answers + tree + pla
 evaluate.py's seconds come from parallel workers sharing the machine; use these for run times.
 Writes results/timing_<test>.csv.
 
-Run: python timing.py old-paper|loss-grid [--limit N]
+Run: python code/timing.py old-paper|loss-grid [--limit N]
 """
 import argparse
 import time
@@ -18,7 +18,7 @@ import pandas as pd
 from features import load_oracle
 from tests import GENERATORS, LOSS_CELLS, LOSS_MUTATIONS, PAPER_CELLS, PAPER_MUTATIONS, score
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent                      # repository root
 SUBSETS = {"old-paper": [(n, m, 0.001, fn, k) for n in PAPER_CELLS for m in PAPER_MUTATIONS for fn in (0.05, 0.2)
                          for k in (1, 2)],
            "loss-grid": [(n, m, L, s) for n in LOSS_CELLS for m in LOSS_MUTATIONS for L in (0.0, 0.4) for s in (0, 1)]}

@@ -6,15 +6,18 @@ Scored as tests.score scores test data (probabilities averaged over the 6 orders
 split-away answer). Writes results/train-accuracy.csv (one row per dataset: data, part, cells, mutations, triplets,
 accuracy).
 
-Run: python train_accuracy.py [--workers 6]
+Run: python training/train_accuracy.py [--workers 6]
 """
 import argparse
 import itertools
+import sys
 from multiprocessing import Pool
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "code"))     # the LA code
 from features import Context, load_oracle, oracle_probs, triplet_rows
 from simulate import calibration
 from train import PARTS, PER_TREE, SEEDS, dataset

@@ -22,7 +22,7 @@ import numpy as np
 import pandas as pd
 from scipy.special import gammaln
 
-DATA = Path(__file__).resolve().parent / "data"
+DATA = Path(__file__).resolve().parent.parent / "data"
 SETTINGS_PATH = DATA / "simulator_settings.json"
 CALIBRATION = DATA / "cells23_input.tsv"          # the raw matrix the general and wide settings were fitted to
 

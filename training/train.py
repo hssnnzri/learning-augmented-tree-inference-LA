@@ -14,13 +14,14 @@ From each dataset up to 1,500 triplets (cells in random order; triplets with a d
 the cell that splits away first in the generating tree. XGBoost, 3 classes, depth 8, 600 rounds, eta 0.1, row and
 column subsampling 0.8, seed 42, streamed from disk. Same code, seeds and block order as the experiments
 (train_context_oracle_V2_combined.py, train_context_oracle_V2_combined_noloss.py); models/combined.ubj and
-models/strict.ubj are the models those runs saved, and verify.py checks that this code rebuilds their training data.
+models/strict.ubj are the models those runs saved.
 
-Run: python train.py combined|strict [--out file.ubj] [--workers 6]      (about 35 minutes each)
+Run: python training/train.py combined|strict [--out file.ubj] [--workers 6]      (about 35 minutes each)
 """
 import argparse
 import itertools
 import shutil
+import sys
 import time
 from multiprocessing import Pool
 from pathlib import Path
@@ -29,11 +30,12 @@ import numpy as np
 import pandas as pd
 import xgboost as xgb
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "code"))     # the LA code
 from features import PARAMS, Context, ordered_rows
 from simulate import calibration, draw_ranges, logu, simulate_general, simulate_wide
 from trees import split_away
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent                      # repository root
 PARTS = {"general": 30, "wide": 15, "R": 45, "general extra": 30, "few": 15, "large": 15}     # blocks of 100 datasets
 SEEDS = {"general": 5_000, "wide": 9_000, "R": 200_000, "general extra": 600_000, "few": 610_000, "large": 620_000}
 PER_TREE, ROUNDS = 1_500, 600

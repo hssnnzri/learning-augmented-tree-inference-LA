@@ -6,8 +6,8 @@ Placement (the tree is the same either way): default = maximum-likelihood edge, 
 one-cell losses; --no-cell-losses stops after the group losses; --no-loss-aware keeps every mutation on one edge.
 Writes <out>.corrected.tsv, <out>.nwk and <out>.summary.json (default <out> = results/<input name>_<oracle>).
 
-Run: python run.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --reference data/sublines24_reference.tsv
-     python run.py --input data/cells23_input.tsv --fp 0.001 --fn 0.15 --reference data/cells23_reference.tsv
+Run: python code/run.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --reference data/sublines24_reference.tsv
+     python code/run.py --input data/cells23_input.tsv --fp 0.001 --fn 0.15 --reference data/cells23_reference.tsv
      [--oracle combined|strict|file.ubj] [--small-groups exhaustive|vote-dp] [--no-loss-aware] [--no-cell-losses]
 """
 import argparse
@@ -24,7 +24,7 @@ from la import add_cell_losses, build_tree, corrections, place, place_loss_aware
 from simulate import genome_layout
 from trees import matrix_clades, newick, tree, triplet_answers
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent                      # repository root
 
 
 def placed(raw, clades, fp, fn, loss_aware=True, cell_losses=True):

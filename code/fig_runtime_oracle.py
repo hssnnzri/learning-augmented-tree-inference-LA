@@ -2,10 +2,10 @@
 Left: run time of LA (main oracle: oracle answers + tree + placement) and ScisTree2 by mutation count at 20 cells, on
 the clean ISA timing subset (timing.py old-paper: one dataset at a time with all threads), mean line and range band over
 the 4 datasets per point. Right: the main oracle's triplet accuracy on its training data vs held-out data from the same
-simulators, by cell count (train_accuracy.py), one small violin panel per cell-count bin.
+simulators, by cell count (training/train_accuracy.py), one small violin panel per cell-count bin.
 Reads results/timing_old-paper.csv and results/train-accuracy.csv; writes results/figures/runtime_oracle.png / .pdf.
 
-Run: python fig_runtime_oracle.py [--cells 20]
+Run: python code/fig_runtime_oracle.py [--cells 20]
 """
 import argparse
 

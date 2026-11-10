@@ -7,7 +7,7 @@ Each dataset's answers are fixed by its own seed (950000, error, cells, mutation
 Writes results/noisy-oracle-<error>.csv; finished datasets are appended to results/noisy-oracle-<error>_partial.csv, so
 a stopped run resumes.
 
-Run: python noisy_oracle.py [--error 0.05] [--workers 4] [--limit N]
+Run: python code/noisy_oracle.py [--error 0.05] [--workers 4] [--limit N]
 """
 import argparse
 import itertools
@@ -22,7 +22,7 @@ from la import build_tree, place_loss_aware
 from tests import PAPER_FN, PAPER_FP, jobs, old_paper, pair_accuracies
 from trees import matrix_clades, split_away
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent                      # repository root
 RESULTS = HERE / "results"
 
 

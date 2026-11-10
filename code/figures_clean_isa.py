@@ -8,7 +8,7 @@ dot, grey bands between groups).
                                      LA: placement with losses)
 Reads results/old-paper.csv and results/noisy-oracle-0.05.csv; writes results/figures/<name>.png / .pdf.
 
-Run: python figures_clean_isa.py
+Run: python code/figures_clean_isa.py
 """
 from pathlib import Path
 
@@ -20,7 +20,7 @@ import pandas as pd
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent                      # repository root
 RESULTS = HERE / "results"
 OUT = RESULTS / "figures"
 
