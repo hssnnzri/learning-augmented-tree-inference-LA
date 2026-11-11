@@ -7,16 +7,18 @@ paper's results. Run every command from the repository's main folder.
 
 | File | What it does |
 |---|---|
-| `run.py` | LA on one matrix: tree, corrected matrix, summary |
-| `la.py` | tree building and mutation placement |
-| `features.py` | the oracle's inputs and predictions |
-| `trees.py` | tree helpers |
-| `simulate.py` | the data simulators |
-| `tests.py` | the simulated test sets and their scoring |
-| `evaluate.py` | LA (both oracles) and ScisTree2 on a test set, to `results/` |
-| `timing.py` | run times, to `results/` |
-| `noisy_oracle.py` | LA with the 95% synthetic oracle on the clean ISA test set |
-| `figures_clean_isa.py`, `fig_runtime_oracle.py`, `fig_mixed_sets.py` | the figures |
+| `run.py` | runs LA on one matrix and writes the tree, corrected matrix and summary |
+| `la.py` | the LA algorithm: builds the tree from the oracle's answers and places the mutations |
+| `features.py` | the oracle: computes its inputs for each triplet of cells and returns its predictions |
+| `trees.py` | helper functions for trees |
+| `simulate.py` | simulates datasets with a known true tree, for training and testing |
+| `tests.py` | the simulated test sets and how results are scored against the truth |
+| `evaluate.py` | runs LA and ScisTree2 on a test set and saves the scores in `results/` |
+| `timing.py` | measures the run time of LA and ScisTree2 |
+| `noisy_oracle.py` | runs LA with a synthetic oracle that is right 95% of the time |
+| `figures_clean_isa.py` | figures for the clean ISA test set |
+| `fig_runtime_oracle.py` | figure of run time and oracle accuracy |
+| `fig_mixed_sets.py` | figures for the other test sets |
 
 ## Reproducing the results
 
