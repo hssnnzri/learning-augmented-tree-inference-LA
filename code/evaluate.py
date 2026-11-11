@@ -4,7 +4,7 @@
   general      200 broad-range datasets             recoverable   200 recoverable datasets
   realistic    100 realistic datasets               loss-grid     1,680 datasets (random losses 0-40%)
   factor-grid  2,160 datasets (deletions, parallel mutations, doublets, dropout, missing reads, false positives)
-  old-paper    3,360 datasets (the paper's previous simulations, 20-100 cells)
+  clean-isa    3,360 datasets (data/clean_isa, 20-100 cells)
   parallel-control  540 datasets (the factor grid's 270 parallel datasets, merged and split)
 Simulated tests also record seconds per method and the corrected matrices' genotype, ancestor-descendant and
 different-lineage accuracy (the last two without the mutations changed by ISA violations; tests.score). Seconds are
@@ -13,7 +13,7 @@ Writes results/<test>.csv; finished datasets are appended to results/<test>_part
 
 --min-cells / --max-cells / --factors run part of a test set; results/<test>.csv always holds every dataset finished so far.
 
-Run: python code/evaluate.py real|general|recoverable|realistic|loss-grid|factor-grid|parallel-control|old-paper [--oracles combined strict]
+Run: python code/evaluate.py real|general|recoverable|realistic|loss-grid|factor-grid|parallel-control|clean-isa [--oracles combined strict]
      [--workers 6] [--limit N] [--min-cells N] [--max-cells N] [--factors deletions doublets ...]
 """
 import argparse

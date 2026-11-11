@@ -60,8 +60,8 @@ for reporting come from `timing.py`.
 python code/run.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --reference data/sublines24_reference.tsv
 python code/run.py --input data/cells23_input.tsv --fp 0.001 --fn 0.15 --reference data/cells23_reference.tsv --oracle strict
 python code/evaluate.py real
-python code/evaluate.py general            # also: recoverable, realistic, loss-grid, factor-grid, parallel-control
-python code/timing.py loss-grid
+python code/evaluate.py general            # also: recoverable, realistic, loss-grid, factor-grid, parallel-control, clean-isa
+python code/timing.py loss-grid            # also: clean-isa
 python code/noisy_oracle.py                # 95% synthetic oracle on the clean ISA test set
 python training/train_accuracy.py          # oracle accuracy on training vs held-out data
 python code/figures_clean_isa.py; python code/fig_runtime_oracle.py; python code/fig_mixed_sets.py

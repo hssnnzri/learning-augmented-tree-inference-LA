@@ -14,7 +14,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Tested with Python 3.13 on macOS.
+Tested with Python 3.13 on macOS. On macOS, XGBoost also needs the OpenMP library: `brew install libomp`.
 
 ## Test run
 

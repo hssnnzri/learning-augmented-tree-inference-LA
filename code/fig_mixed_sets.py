@@ -48,7 +48,7 @@ def main():
     sets = {t: pd.read_csv(RESULTS / f"{t}.csv") for t in ("general", "recoverable", "realistic")}
     figure(pd.concat(sets.values()), "mixed_sets_pooled", "Three mixed sets (500 datasets)")
     figure(sets["general"], "mixed_sets_general", "General set (200 datasets)")
-    names = {"old-paper": "Clean ISA", "loss-grid": "Loss grid", "factor-grid": "Factor grid", "general": "General",
+    names = {"clean-isa": "Clean ISA", "loss-grid": "Loss grid", "factor-grid": "Factor grid", "general": "General",
              "recoverable": "Recoverable", "realistic": "Realistic"}
     all_sets({label: pd.read_csv(RESULTS / f"{t}.csv") for t, label in names.items()})
 

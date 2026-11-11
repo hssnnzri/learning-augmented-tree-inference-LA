@@ -6,7 +6,7 @@ dot, grey bands between groups).
   mutation_metrics.*  Figs. 6-7      genotype, ancestor-descendant and different-lineage accuracy by cell count (top)
                                      and by mutation count (bottom) (ScisTree2: each mutation on its most likely edge;
                                      LA: placement with losses)
-Reads results/old-paper.csv and results/noisy-oracle-0.05.csv; writes results/figures/<name>.png / .pdf.
+Reads results/clean-isa.csv and results/noisy-oracle-0.05.csv; writes results/figures/<name>.png / .pdf.
 
 Run: python code/figures_clean_isa.py
 """
@@ -109,7 +109,7 @@ def mutation_metrics(d):
 def main():
     d = pd.read_csv(RESULTS / "noisy-oracle-0.05.csv")
     cols = [f"{k} {x}" for k in ("combined", "ScisTree2") for x in ["clades"] + [m for m, _ in METRICS]]
-    d = d.merge(pd.read_csv(RESULTS / "old-paper.csv")[["job"] + cols], on="job", how="left")
+    d = d.merge(pd.read_csv(RESULTS / "clean-isa.csv")[["job"] + cols], on="job", how="left")
     assert len(d) == 3_360 and d.notna().all().all()
     tree_accuracy(d)
     mutation_metrics(d)

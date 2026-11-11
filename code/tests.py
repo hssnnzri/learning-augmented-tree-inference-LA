@@ -15,7 +15,7 @@ experiments, so the datasets are identical):
                both copies of a parallel mutation in one column) and "split" (the second copy in its own column, the
                same reads for its cells, so the same information without the ISA violation); both scored on the true
                clades the split version's mutations mark
-  old paper    the paper's previous simulations (data/clean_isa), the 20-100-cell block: 20 / 30 / 50 / 100 cells x
+  clean ISA    the simulations in data/clean_isa: 20 / 30 / 50 / 100 cells x
                20-1,000 mutations x FP 1e-4 / 1e-3 / 1e-2 x dropout 5 / 10 / 15 / 20%, 10 trees per point; ISA, mutations
                on internal edges chosen uniformly, one error rate for every entry, no missing reads
 Rates given to every method: the true FP and the mean dropout (realistic: 0.001 and 0.15).
@@ -275,18 +275,18 @@ def parallel_control(version, n, m, level, s):
     return O2, G2, clades, chrom2, fp, fn, [], {**info, "_affected": np.zeros(O2.shape[1], dtype=bool)}
 
 
-# ---------------------------------------------------------------- old paper
+# ---------------------------------------------------------------- clean ISA
 
-PAPER = Path(__file__).resolve().parent.parent / "data" / "clean_isa"            # copied from the archive's part2/large-data
-PAPER_CELLS, PAPER_MUTATIONS = (20, 30, 50, 100), (20, 30, 50, 100, 250, 500, 1000)
-PAPER_FP, PAPER_FN, PAPER_TREES = (0.0001, 0.001, 0.01), (0.05, 0.1, 0.15, 0.2), 10
+CLEAN_ISA = Path(__file__).resolve().parent.parent / "data" / "clean_isa"
+ISA_CELLS, ISA_MUTATIONS = (20, 30, 50, 100), (20, 30, 50, 100, 250, 500, 1000)
+ISA_FP, ISA_FN, ISA_TREES = (0.0001, 0.001, 0.01), (0.05, 0.1, 0.15, 0.2), 10
 _CODES = []
 
 
-def old_paper(n, m, fp, fn, k):
-    """Tree k of the paper's previous simulations. Chromosome codes drawn from the 23-cell matrix's (no genome there),
+def clean_isa(n, m, fp, fn, k):
+    """Tree k of the clean ISA simulations. Chromosome codes drawn from the 23-cell matrix's (no genome there),
     as the experiments did."""
-    stem = PAPER / f"simNo_{k}-n_{n}-m_{m}"
+    stem = CLEAN_ISA / f"simNo_{k}-n_{n}-m_{m}"
     df = pd.read_csv(f"{stem}-fp_{fp}-fn_{fn}-na_0.SC.after_noise", sep="\t", index_col=0)
     G = pd.read_csv(f"{stem}.ground_truth_matrix", sep="\t", index_col=0).loc[df.index, df.columns].to_numpy()
     pos = {c: i for i, c in enumerate(df.index)}
@@ -318,16 +318,16 @@ def jobs(test):
     if test == "parallel-control":
         return [(v, n, m, L, s) for n in FACTOR_CELLS[::-1] for m in FACTOR_MUTATIONS[::-1] for L in FACTORS["parallel"][1:]
                 for s in range(FACTOR_TREES) for v in ("merged", "split")]
-    if test == "old-paper":                                           # trees outermost: a cut run keeps every setting
-        return [(n, m, fp, fn, k) for k in range(1, PAPER_TREES + 1) for n in PAPER_CELLS[::-1]
-                for m in PAPER_MUTATIONS[::-1] for fp in PAPER_FP for fn in PAPER_FN]
+    if test == "clean-isa":                                           # trees outermost: a cut run keeps every setting
+        return [(n, m, fp, fn, k) for k in range(1, ISA_TREES + 1) for n in ISA_CELLS[::-1]
+                for m in ISA_MUTATIONS[::-1] for fp in ISA_FP for fn in ISA_FN]
     raise ValueError(test)
 
 
 def cells_of(test, a):
     """Number of cells of a test dataset from its job arguments, without simulating it (for general, recoverable and
     realistic it is the generator's first draw)."""
-    if test in ("old-paper", "loss-grid"):
+    if test in ("clean-isa", "loss-grid"):
         return a[0]
     if test in ("factor-grid", "parallel-control"):
         return a[1]
@@ -336,7 +336,7 @@ def cells_of(test, a):
 
 
 GENERATORS = {"general": general, "recoverable": recoverable, "realistic": realistic, "loss-grid": loss_grid,
-              "factor-grid": factor_grid, "parallel-control": parallel_control, "old-paper": old_paper}
+              "factor-grid": factor_grid, "parallel-control": parallel_control, "clean-isa": clean_isa}
 
 
 # ---------------------------------------------------------------- scoring

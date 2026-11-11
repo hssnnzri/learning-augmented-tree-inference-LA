@@ -1,9 +1,9 @@
-"""Paper figure replacing the earlier runtime / oracle-training figure, in its format.
+"""Paper figure on run time and oracle accuracy.
 Left: run time of LA (main oracle: oracle answers + tree + placement) and ScisTree2 by mutation count at 20 cells, on
-the clean ISA timing subset (timing.py old-paper: one dataset at a time with all threads), mean line and range band over
+the clean ISA timing subset (timing.py clean-isa: one dataset at a time with all threads), mean line and range band over
 the 4 datasets per point. Right: the main oracle's triplet accuracy on its training data vs held-out data from the same
 simulators, by cell count (training/train_accuracy.py), one small violin panel per cell-count bin.
-Reads results/timing_old-paper.csv and results/train-accuracy.csv; writes results/figures/runtime_oracle.png / .pdf.
+Reads results/timing_clean-isa.csv and results/train-accuracy.csv; writes results/figures/runtime_oracle.png / .pdf.
 
 Run: python code/fig_runtime_oracle.py [--cells 20]
 """
@@ -25,7 +25,7 @@ def main():
     a = argparse.ArgumentParser(description="Run time and oracle train vs held-out accuracy figure.")
     a.add_argument("--cells", type=int, default=20)
     n = a.parse_args().cells
-    t = pd.read_csv(RESULTS / "timing_old-paper.csv")
+    t = pd.read_csv(RESULTS / "timing_clean-isa.csv")
     acc = pd.read_csv(RESULTS / "train-accuracy.csv")
     acc["bin"] = pd.cut(acc.cells, BINS[0], labels=BINS[1])
     fig = plt.figure(figsize=(14, 3.8))
