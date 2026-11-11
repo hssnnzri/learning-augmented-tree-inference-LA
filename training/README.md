@@ -1,14 +1,12 @@
 # Training (not needed to use LA)
 
-The trained models are already included in `models/`, so you do not need anything in this folder to run LA. It is
-here only for anyone who wants to rebuild the models from scratch.
-
-Run every command from the repository's main folder, with the environment switched on
-(`source .venv/bin/activate`).
+The trained models are included in `models/`. This folder holds the scripts that rebuild them from scratch. Commands
+run from the repository's main folder.
 
 ## Rebuilding a model
 
-The training data is simulated to resemble the 23-cell dataset in `data/`.
+Part of the training data is simulated with settings taken from the 23-cell dataset in `data/`: tree-shape and
+noise settings fitted to it, its missing-read rate per cell, and its mutation positions on the genome.
 
 1. Train. This takes about 35 minutes per model.
 
@@ -38,14 +36,13 @@ The training data is simulated to resemble the 23-cell dataset in `data/`.
 
 15,000 simulated datasets in blocks of 100, each block with its own NumPy seed (`code/simulate.py` has the generators):
 
-| Part | Datasets | Generator |
+| Datasets | Size | Settings |
 |---|---|---|
-| general | 3,000 | general |
-| wide | 1,500 | wide |
-| R | 4,500 | ranges |
-| general extra | 3,000 | general |
-| few | 1,500 | 5-50 mutations per cell, 20-100 cells (wide and ranges, alternating) |
-| large | 1,500 | 100-200 cells, 500-15,000 mutations (wide and ranges, alternating) |
+| 6,000 | 16-40 cells, 800-15,000 mutations | dropout 1-60%, false positives 0.0001-0.003, missing reads in 70% of the datasets |
+| 1,500 | 16-100 cells, 20-1,500 mutations | dropout 1-60%, false positives 0.0001-0.01; half with no missing reads or losses |
+| 4,500 | 20-100 cells, 100-12,000 mutations | dropout 5-45%, false positives 0.00001-0.003, missing reads 0-50%, doublets in a quarter of the datasets |
+| 1,500 | 20-100 cells, 5-50 mutations per cell | half as row 2, half as row 3 |
+| 1,500 | 100-200 cells, 500-15,000 mutations | half as row 2, half as row 3 |
 
 From each dataset, up to 1,500 triplets of cells are labelled with the cell that splits away first in the simulated
 tree. The combined oracle trains on data with mutation losses; the strict oracle uses the same simulators and seeds
