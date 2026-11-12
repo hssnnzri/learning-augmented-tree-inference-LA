@@ -93,7 +93,7 @@ PhISCS code is in `PhISCS/`, and its saved output (tree, corrected matrix, clade
 
 ## Data source and attribution
 
-Two real datasets are included in `data/`:
+These two datasets are included in `data/`:
 
 - **23-cell data**: from [Liu et al., Nature Communications 17, 8740 (2026)](https://doi.org/10.1038/s41467-026-75172-9).
   The simulated training data was generated with settings derived from this matrix.
