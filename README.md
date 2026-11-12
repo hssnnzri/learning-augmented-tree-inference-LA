@@ -93,11 +93,14 @@ PhISCS code is in `PhISCS/`, and its saved output (tree, corrected matrix, clade
 
 ## Data source and attribution
 
-The calibration matrix, comprising data from 23 sublines, was obtained from a previously published study:
-[Liu et al., Nature Communications 17, 8740 (2026)](https://doi.org/10.1038/s41467-026-75172-9).
-Synthetic training datasets were generated using fitted tree and noise parameters, per-cell missing-data rates,
-and genomic coordinates derived from this matrix.
-The BibTeX entry is provided as `longreadpaper2026` in [references.bib](references.bib).
+Two real datasets are included in `data/`:
+
+- **23-cell data**: from [Liu et al., Nature Communications 17, 8740 (2026)](https://doi.org/10.1038/s41467-026-75172-9).
+  The simulated training data was generated with settings derived from this matrix.
+- **24-subline data**: sublines from [Gruen et al., bioRxiv (2023)](https://doi.org/10.1101/2023.04.03.535074); the
+  matrix is the one released in the [Partition-Function repository](https://github.com/algo-cancer/Partition-Function).
+
+BibTeX entries are in [references.bib](references.bib).
 
 ## License
 
