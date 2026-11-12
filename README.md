@@ -14,9 +14,50 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Tested with Python 3.13 on macOS. On macOS, XGBoost also needs the OpenMP library: `brew install libomp`.
+Requirements: Python 3 (tested with Python 3.13 on macOS) and the packages in `requirements.txt`, which the last
+command installs: numpy 2.2.6, pandas 2.3.2, scipy 1.18.1, xgboost 3.0.5, ScisTree2, ete3 3.1.3 and matplotlib 3.11.2.
+On macOS, XGBoost also needs the OpenMP library: `brew install libomp`.
 
-## Test run
+## Input Description
+
+The input is a cells x mutations matrix in a tab-separated file. The first row holds the mutation names and the first
+column the cell names. Each entry is `1` (mutation present), `0` (absent) or `3` (missing).
+
+Mutation names must be `chrom-pos-ref-alt` (for example `1-5602235-T-C`); LA uses the chromosome and position.
+The start of `data/sublines24_input.tsv`:
+
+```
+cell_id_x_mut_id  1-5602235-T-C  1-6248992-T-C  1-10151994-A-G
+C20               1              0              0
+C21               0              0              1
+C23               0              0              0
+```
+
+## Parameters Description
+
+| Parameter | Description |
+|---|---|
+| `--input` | the input matrix file (required) |
+| `--fp` | false positive rate of the data (required) |
+| `--fn` | false negative rate of the data (required) |
+| `--reference` | a known tree to compare with, as a 0/1 matrix of the same cells and mutations (optional) |
+| `--out` | where to write the output files, as a path and file name without extension (optional; default `results/<input name>_<oracle>`) |
+| `--oracle` | the trained oracle to use: `combined` (default), `strict`, or a model file (optional) |
+| `--small-groups` | how small groups of cells are solved: `exhaustive` (default) or `vote-dp` (optional) |
+| `--no-loss-aware` | place every mutation on one edge, without mutation losses (optional) |
+| `--no-cell-losses` | do not place losses in single cells (optional) |
+
+## Output Description
+
+LA writes three files, named `results/<input name>_combined` by default:
+
+| File | Description |
+|---|---|
+| `.nwk` | the cell tree, in Newick format (opens in tree viewers such as [iTOL](https://itol.embl.de)) |
+| `.corrected.tsv` | the corrected matrix: same cells and mutations, 0/1, with errors corrected and missing entries filled in from the tree |
+| `.summary.json` | the printed numbers plus details: corrections, mutation losses placed, run time, ScisTree2 comparison |
+
+## Test Run
 
 ```bash
 python code/run.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --reference data/sublines24_reference.tsv
@@ -37,39 +78,7 @@ clades of the reference tree. ScisTree2 is shown for comparison.
 
 The 24-subline reference (`data/sublines24_reference.tsv`) is the proven maximum-likelihood tree from PhISCS. The
 PhISCS code is in `PhISCS/`, and its saved output (tree, corrected matrix, clade list) is in
-`results/sublines24_phiscs.*`. To recompute it:
-
-```bash
-python PhISCS/exact_ml_tree.py --input data/sublines24_input.tsv --fp 0.0001 --fn 0.075 --mip-rel-gap 0 --out results/sublines24_phiscs
-```
-
-## Input
-
-| Option | Description |
-|---|---|
-| `--input` | cells x mutations matrix, tab-separated. First row: mutation names; first column: cell names; entries `1` (mutation present), `0` (absent), `3` (missing). |
-| `--fp`, `--fn` | false positive and false negative rates of the data |
-| `--reference` | optional: a known tree, as a corrected 0/1 matrix of the same cells and mutations, for comparison |
-
-Mutation names must be `chrom-pos-ref-alt` (for example `1-5602235-T-C`); LA uses the chromosome and position.
-The start of `data/sublines24_input.tsv`:
-
-```
-cell_id_x_mut_id  1-5602235-T-C  1-6248992-T-C  1-10151994-A-G
-C20               1              0              0
-C21               0              0              1
-C23               0              0              0
-```
-
-## Output
-
-Three files in `results/`, named `<input name>_combined` (change with `--out`):
-
-| File | Description |
-|---|---|
-| `.nwk` | the cell tree, in Newick format (opens in tree viewers such as [iTOL](https://itol.embl.de)) |
-| `.corrected.tsv` | the corrected matrix: same cells and mutations, 0/1, with errors corrected and missing entries filled in from the tree |
-| `.summary.json` | the printed numbers plus details: corrections, mutation losses placed, run time, ScisTree2 comparison |
+`results/sublines24_phiscs.*`.
 
 ## Folders
 
