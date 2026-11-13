@@ -74,9 +74,11 @@ wrote .../results/sublines24_input_combined.corrected.tsv, .nwk, .summary.json
 ```
 
 FP and FN are the entries corrected from 1 to 0 and from 0 to 1. `22/22 reference clades` means LA recovered all 22
-clades of the reference tree. ScisTree2 is shown for comparison.
+clades of the reference tree. [ScisTree2](https://doi.org/10.1101/gr.280542.125) (Zhang et al., 2025) is shown for
+comparison.
 
-The 24-subline reference (`data/sublines24_reference.tsv`) is the proven maximum-likelihood tree from PhISCS. The
+The 24-subline reference (`data/sublines24_reference.tsv`) is the proven maximum-likelihood tree from
+[PhISCS](https://doi.org/10.1101/gr.234435.118) (Malikic et al., 2019). The
 PhISCS code is in `PhISCS/`, and its saved output (tree, corrected matrix, clade list) is in
 `results/sublines24_phiscs.*`.
 
